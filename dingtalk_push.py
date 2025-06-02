@@ -1,3 +1,4 @@
+from fetch_aibase import fetch_latest_aibase_fulltext
 import requests
 import json
 
@@ -25,4 +26,6 @@ message = {
 # 发出请求
 headers = {"Content-Type": "application/json"}
 res = requests.post(webhook, data=json.dumps(message), headers=headers)
+print("🧪 抓取的内容如下：\n")
+print(fetch_latest_aibase_fulltext())
 print("发送结果:", res.text)
