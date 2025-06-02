@@ -1,0 +1,26 @@
+name: Daily Dingtalk Push
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 0 点（即北京时间 8 点）运行
+  workflow_dispatch:      # 手动执行按钮（可选）
+
+jobs:
+  send-message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    - name: Run dingtalk_push.py
+      run: python dingtalk_push.py
