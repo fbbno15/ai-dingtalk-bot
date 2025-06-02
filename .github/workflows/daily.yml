@@ -2,8 +2,8 @@ name: Daily Dingtalk Push
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点（即北京时间 8 点）运行
-  workflow_dispatch:      # 手动执行按钮（可选）
+    - cron: '0 0 * * *'  # 每天 UTC 0 点运行（北京时间早上 8 点）
+  workflow_dispatch:
 
 jobs:
   send-message:
@@ -20,7 +20,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install requests
+        pip install -r requirements.txt
 
     - name: Run dingtalk_push.py
       run: python dingtalk_push.py
