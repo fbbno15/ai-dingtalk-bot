@@ -2,7 +2,7 @@ name: Daily Dingtalk Push
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0 点运行（北京时间早上 8 点）
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -21,6 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+        playwright install chromium  # ✅ 安装浏览器驱动
 
-    - name: Run dingtalk_push.py
+    - name: Run script
       run: python dingtalk_push.py
