@@ -1,14 +1,11 @@
 import requests
 import json
-from fetch_aibase import fetch_latest_aibase_fulltext
+from fetch_dynamic_aibase import fetch_dynamic_aibase
 
-# ✅ 你的钉钉机器人 webhook
-webhook = "https://oapi.dingtalk.com/robot/send?access_token=5cb3503b308034b54bcbf5cb6d3bff7b58cd7e95a533407d89949ad3636a50a8"
+webhook = "https://oapi.dingtalk.com/robot/send?access_token=你的token"
 
-# ✅ 抓取最新日报正文内容
-markdown_text = fetch_latest_aibase_fulltext()
+markdown_text = fetch_dynamic_aibase()
 
-# ✅ 组装钉钉 markdown 消息
 message = {
     "msgtype": "markdown",
     "markdown": {
@@ -17,7 +14,6 @@ message = {
     }
 }
 
-# ✅ 发送消息
 headers = {"Content-Type": "application/json"}
 res = requests.post(webhook, data=json.dumps(message), headers=headers)
 print("发送结果:", res.text)
