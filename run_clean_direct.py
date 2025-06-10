@@ -25,10 +25,15 @@ def fetch_aibase_article_markdown(url: str) -> str:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         page.goto(url)
         page.wait_for_timeout(8000)
+        # 截图页面，方便云端排查
+        page.screenshot(path="page.png", full_page=True)
+        print("✅ 已保存页面截图 page.png")
+        # 输出页面HTML快照
         html = page.content()
         print("------ 页面HTML快照 ------")
         print(html)
         print("------ 结束 ------")
+        # 继续尝试抓取内容
         title = page.locator(".prose h1").inner_text()
         date = page.locator(".prose time").inner_text()
         paragraphs = page.locator(".prose p").all_inner_texts()
