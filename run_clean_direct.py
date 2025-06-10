@@ -58,8 +58,8 @@ def fetch_aibase_article_markdown(url: str) -> str:
     return md_content
 
 def clean_with_gpt_azure(raw_markdown: str) -> str:
-    endpoint = https://momo-sjb03-openai.openai.azure.com/openai/deployments/momo-sjb03-gpt4o/chat/completions?api-version=2025-01-01-preview
-    api_key = 3NdPl4AqDR7Mgm5tHLbjVd6RBaJ6oQAFHslUSo1BGPNBX5B2Ya8JJQQJ99BFACYeBjFXJ3w3AAABACOGSg4j
+    endpoint = "https://momo-sjb03-openai.openai.azure.com/openai/deployments/momo-sjb03-gpt4o/chat/completions?api-version=2025-01-01-preview"
+    api_key = "3NdPl4AqDR7Mgm5tHLbjVd6RBaJ6oQAFHslUSo1BGPNBX5B2Ya8JJQQJ99BFACYeBjFXJ3w3AAABACOGSg4j"
     headers = {
         "Content-Type": "application/json",
         "api-key": api_key
