@@ -1,6 +1,7 @@
 from playwright.sync_api import sync_playwright
 import requests
 import os
+from bs4 import BeautifulSoup
 
 def get_today_daily_url(list_url: str) -> str:
     with sync_playwright() as p:
@@ -8,7 +9,6 @@ def get_today_daily_url(list_url: str) -> str:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         page.goto(list_url)
         page.wait_for_timeout(8000)
-        # 找到"查看日报"按钮的链接
         daily_link = page.locator('a:has-text("查看日报")').first.get_attribute("href")
         browser.close()
     if daily_link:
@@ -25,24 +25,36 @@ def fetch_aibase_article_markdown(url: str) -> str:
         page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         page.goto(url)
         page.wait_for_timeout(8000)
-        # 截图页面，方便云端排查
-        page.screenshot(path="page.png", full_page=True)
-        print("✅ 已保存页面截图 page.png")
-        # 输出页面HTML快照
         html = page.content()
-        print("------ 页面HTML快照 ------")
-        print(html)
-        print("------ 结束 ------")
-        # 继续尝试抓取内容
-        title = page.locator(".prose h1").inner_text()
-        date = page.locator(".prose time").inner_text()
-        paragraphs = page.locator(".prose p").all_inner_texts()
         browser.close()
-    md_content = f"# {title}\n\n🗓️ {date}\n\n## 内容摘要\n\n"
-    for para in paragraphs:
-        text = para.strip()
-        if text:
-            md_content += f"- {text}\n\n"
+
+    soup = BeautifulSoup(html, "html.parser")
+    # 提取标题和日期
+    title = soup.find("h1")
+    date = soup.find("time")
+    title_text = title.get_text(strip=True) if title else "AI日报"
+    date_text = date.get_text(strip=True) if date else ""
+
+    # 提取所有日报条目
+    items = []
+    for strong in soup.find_all("strong"):
+        strong_text = strong.get_text(strip=True)
+        # 只抓取以数字加顿号开头的标题（如1、2、3...）
+        if strong_text and strong_text[0].isdigit() and '、' in strong_text:
+            item_title = strong_text
+            # 找到下一个 blockquote 作为提要
+            blockquote = strong.find_next("blockquote")
+            if blockquote:
+                summary_lines = [line.strip() for line in blockquote.stripped_strings if line.strip()]
+                items.append((item_title, summary_lines))
+
+    # 拼 Markdown
+    md_content = f"# {title_text}\n\n🗓️ {date_text}\n\n## 内容摘要\n\n"
+    for idx, (item_title, summary_lines) in enumerate(items, 1):
+        md_content += f"## {item_title}\n"
+        for line in summary_lines:
+            md_content += f"· {line}\n"
+        md_content += "\n"
     return md_content
 
 def clean_with_gpt_azure(raw_markdown: str) -> str:
