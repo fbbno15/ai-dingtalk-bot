@@ -60,6 +60,8 @@ def fetch_aibase_article_markdown(url: str) -> str:
 def clean_with_gpt_azure(raw_markdown: str) -> str:
     endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     api_key = os.getenv("AZURE_OPENAI_KEY")
+    print("endpoint:", endpoint)
+    print("api_key:", api_key[:6], "..." if api_key else "（未获取到密钥）")
     headers = {
         "Content-Type": "application/json",
         "api-key": api_key
