@@ -1,0 +1,28 @@
+name: Aibase Clean Test
+
+on:
+  workflow_dispatch:  # 支持手动触发运行
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 安装依赖
+        run: |
+          pip install -r requirements.txt
+          playwright install
+
+      - name: 设置 Azure OpenAI Key
+        run: |
+          echo "AZURE_OPENAI_ENDPOINT=${{ secrets.AZURE_OPENAI_ENDPOINT }}" >> $GITHUB_ENV
+          echo "AZURE_OPENAI_KEY=${{ secrets.AZURE_OPENAI_KEY }}" >> $GITHUB_ENV
+
+      - name: 执行抓取 + 清洗
+        run: python run_clean_direct.py
