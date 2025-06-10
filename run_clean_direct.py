@@ -2,21 +2,33 @@ from playwright.sync_api import sync_playwright
 import requests
 import os
 
-# 从 aibase 抓取单篇日报
+def get_today_daily_url(list_url: str) -> str:
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        page.goto(list_url)
+        page.wait_for_timeout(8000)
+        # 找到"查看日报"按钮的链接
+        daily_link = page.locator('a:has-text("查看日报")').first.get_attribute("href")
+        browser.close()
+    if daily_link:
+        if daily_link.startswith("/"):
+            return "https://www.aibase.com" + daily_link
+        else:
+            return daily_link
+    else:
+        raise Exception("未找到今日日报链接")
+
 def fetch_aibase_article_markdown(url: str) -> str:
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        print(f"正在抓取：{url}")
+        page = browser.new_page(user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         page.goto(url)
-        page.wait_for_timeout(8000)  # 等待动态内容加载
-
+        page.wait_for_timeout(8000)
         title = page.locator(".prose h1").inner_text()
         date = page.locator(".prose time").inner_text()
         paragraphs = page.locator(".prose p").all_inner_texts()
-
         browser.close()
-
     md_content = f"# {title}\n\n🗓️ {date}\n\n## 内容摘要\n\n"
     for para in paragraphs:
         text = para.strip()
@@ -24,7 +36,6 @@ def fetch_aibase_article_markdown(url: str) -> str:
             md_content += f"- {text}\n\n"
     return md_content
 
-# 调用 Azure OpenAI 清洗日报内容
 def clean_with_gpt_azure(raw_markdown: str) -> str:
     endpoint = os.getenv("AZURE_OPENAI_ENDPOINT")
     api_key = os.getenv("AZURE_OPENAI_KEY")
@@ -60,16 +71,20 @@ def clean_with_gpt_azure(raw_markdown: str) -> str:
     response.raise_for_status()
     return response.json()["choices"][0]["message"]["content"].strip()
 
-# 主函数：抓取 + 清洗
 if __name__ == "__main__":
-    url = "https://www.aibase.com/zh/daily/18404"  # 可替换成动态 ID 链接
-    raw_md = fetch_aibase_article_markdown(url)
+    list_url = "https://www.aibase.com/zh/daily"
+    today_url = get_today_daily_url(list_url)
+    print(f"今日日报链接：{today_url}")
+    raw_md = fetch_aibase_article_markdown(today_url)
     print("✅ 已抓取原始日报内容\n")
 
     cleaned_md = clean_with_gpt_azure(raw_md)
     print("\n✅ ChatGPT 清洗输出如下：\n")
     print(cleaned_md)
 
-    with open("aibase_18404_cleaned.md", "w", encoding="utf-8") as f:
+    # 以日报ID命名保存
+    daily_id = today_url.rstrip('/').split('/')[-1]
+    filename = f"aibase_{daily_id}_cleaned.md"
+    with open(filename, "w", encoding="utf-8") as f:
         f.write(cleaned_md)
-    print("✅ 已保存为 aibase_18404_cleaned.md")
+    print(f"✅ 已保存为 {filename}")
