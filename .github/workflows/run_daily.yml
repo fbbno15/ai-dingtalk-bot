@@ -26,3 +26,9 @@ jobs:
 
       - name: 执行抓取 + 清洗
         run: python run_clean_direct.py
+
+      - name: 上传页面截图
+        uses: actions/upload-artifact@v3
+        with:
+          name: page-screenshot
+          path: page.png
