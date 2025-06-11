@@ -60,8 +60,8 @@ def fetch_aibase_article_markdown(url: str) -> str:
 def clean_with_gpt_azure(raw_markdown: str) -> str:
     url = 'https://api.openai.com/v1/chat/completions'
     api_key = os.getenv("OPENAI-KEY")
-    print('api_key'+api_key+'====')
     Authorization = 'Bearer {0}'.format(api_key)
+	print('api_key'+Authorization+'====')
     headers = {'content-type': 'application/json','Authorization': Authorization}
     payload = {
         "messages": [
