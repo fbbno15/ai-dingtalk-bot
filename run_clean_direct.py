@@ -1,6 +1,6 @@
 from playwright.sync_api import sync_playwright
 import requests
-import os
+import os,json
 from bs4 import BeautifulSoup
 
 def get_today_daily_url(list_url: str) -> str:
@@ -58,12 +58,9 @@ def fetch_aibase_article_markdown(url: str) -> str:
     return md_content
 
 def clean_with_gpt_azure(raw_markdown: str) -> str:
-    endpoint = " "
-    api_key = " "
-    headers = {
-        "Content-Type": "application/json",
-        "api-key": api_key
-    }
+    url = 'https://api.openai.com/v1/chat/completions'
+    Authorization = 'Bearer {0}'.format('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')
+    headers = {'content-type': 'application/json','Authorization': Authorization}
     payload = {
         "messages": [
             {
@@ -88,7 +85,11 @@ def clean_with_gpt_azure(raw_markdown: str) -> str:
             }
         ]
     }
-    response = requests.post(endpoint, headers=headers, json=payload)
+
+    postdata = {'model': 'gpt-4o', 'messages': payload['messages'], 'temperature': 0, 'max_tokens': 3000, 'top_p': 1,
+			'frequency_penalty': 0.5, 'presence_penalty': 0.5}
+    data = json.dumps(postdata)
+    response = requests.post(url, headers=headers, data=data)
     response.raise_for_status()
     return response.json()["choices"][0]["message"]["content"].strip()
 
