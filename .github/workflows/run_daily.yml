@@ -22,7 +22,8 @@ jobs:
       - name: 设置 Azure OpenAI Key
         run: |
           echo "AZURE_OPENAI_ENDPOINT=${{ secrets.AZURE_OPENAI_ENDPOINT }}" >> $GITHUB_ENV
-          echo "AZURE_OPENAI_KEY=${{ secrets.AZURE_OPENAI_KEY }}" >> $GITHUB_ENV
+          echo "OPENAI_KEY=${{ secrets.OPENAI_KEY }}" >> $GITHUB_ENV
+          
 
       - name: 执行抓取 + 清洗
         run: python run_clean_direct.py
