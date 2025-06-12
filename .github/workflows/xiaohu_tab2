@@ -1,0 +1,36 @@
+name: xiaohu tab2
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 2 * * *'  # 每天UTC时间2点自动运行（可根据需要调整）
+
+jobs:
+  fetch-and-clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run fetch_xiaohu_tab2.py
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+        run: |
+          python fetch_xiaohu_tab2.py
+
+      - name: Upload cleaned markdown as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: xiaohu_cleaned_posts
+          path: xiaohu_cleaned_posts.md
