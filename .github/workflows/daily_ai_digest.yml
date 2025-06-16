@@ -45,11 +45,11 @@ jobs:
       - name: Merge all sources
         run: python merge_all_sources.py
 
-      - name: Upload merged markdown as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: all_sources_raw
-          path: all_sources_raw.md
+      - name: Create daily digest markdown
+        run: |
+          TODAY=$(date +%Y-%m-%d)
+          mkdir -p daily_digest
+          cp all_sources_raw.md "daily_digest/AI资讯日报_${TODAY}.md"
 
       - name: Send to DingTalk
         env:
@@ -65,7 +65,7 @@ jobs:
           import hashlib
           import os
           from datetime import datetime
-          
+
           def get_dingtalk_sign():
               timestamp = str(round(time.time() * 1000))
               secret = os.environ['DINGTALK_SECRET']
@@ -75,13 +75,13 @@ jobs:
               hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()
               sign = base64.b64encode(hmac_code).decode('utf-8')
               return timestamp, sign
-          
+
           def send_dingtalk_message(content):
               timestamp, sign = get_dingtalk_sign()
               webhook = f"https://oapi.dingtalk.com/robot/send?access_token={os.environ['DINGTALK_TOKEN']}&timestamp={timestamp}&sign={sign}"
-              
+
               headers = {'Content-Type': 'application/json'}
-              
+
               today = datetime.now().strftime('%Y-%m-%d')
               data = {
                   "msgtype": "markdown",
@@ -90,14 +90,15 @@ jobs:
                       "text": content
                   }
               }
-              
+
               response = requests.post(webhook, headers=headers, data=json.dumps(data))
               return response.json()
-          
+
           # 读取markdown文件
-          with open('all_sources_raw.md', 'r', encoding='utf-8') as f:
+          today = datetime.now().strftime('%Y-%m-%d')
+          with open(f'daily_digest/AI资讯日报_{today}.md', 'r', encoding='utf-8') as f:
               content = f.read()
-          
+
           # 发送到钉钉
           result = send_dingtalk_message(content)
           print("钉钉发送结果:", result)
@@ -105,9 +106,16 @@ jobs:
               exit(1)
           EOF
 
+      - name: Upload daily digest as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily_digest
+          path: daily_digest/
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git add daily_digest/
           git add all_sources_raw.md
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily AI digest" && git push)
