@@ -11,9 +11,18 @@ permissions:
 jobs:
   fetch-and-merge:
     runs-on: ubuntu-latest
+    env:
+      TODAY: ${{ steps.set-today.outputs.today }}
+      FILENAME: ${{ steps.set-today.outputs.filename }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
+      - name: Set today and filename
+        id: set-today
+        run: |
+          echo "today=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          echo "filename=AI资讯日报_$(date +%Y-%m-%d).md" >> $GITHUB_OUTPUT
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -47,9 +56,8 @@ jobs:
 
       - name: Create daily digest markdown
         run: |
-          TODAY=$(date +%Y-%m-%d)
           mkdir -p daily_digest
-          cp all_sources_raw.md "daily_digest/AI资讯日报_${TODAY}.md"
+          cp all_sources_raw.md "daily_digest/${FILENAME}"
 
       - name: Upload to GitHub Release (daily)
         uses: softprops/action-gh-release@v2
@@ -57,7 +65,7 @@ jobs:
           tag_name: daily
           name: 每日AI资讯
           body: "每日自动更新AI资讯原文Markdown文件"
-          files: daily_digest/AI资讯日报_*.md
+          files: daily_digest/${{ env.FILENAME }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -65,6 +73,8 @@ jobs:
         env:
           DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+          FILENAME: ${{ env.FILENAME }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python - <<EOF
           import requests
@@ -106,8 +116,7 @@ jobs:
               return response.json()
 
           # 读取markdown文件
-          today = datetime.now().strftime('%Y-%m-%d')
-          filename = f'AI资讯日报_{today}.md'
+          filename = os.environ['FILENAME']
           with open(f'daily_digest/{filename}', 'r', encoding='utf-8') as f:
               content = f.read()
 
