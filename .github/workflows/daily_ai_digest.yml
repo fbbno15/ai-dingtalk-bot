@@ -96,14 +96,13 @@ jobs:
               sign = base64.b64encode(hmac_code).decode('utf-8')
               return timestamp, sign
 
-          def send_dingtalk_message(content, download_url):
+          def send_dingtalk_message(text):
               timestamp, sign = get_dingtalk_sign()
               webhook = f"https://oapi.dingtalk.com/robot/send?access_token={os.environ['DINGTALK_TOKEN']}&timestamp={timestamp}&sign={sign}"
 
               headers = {'Content-Type': 'application/json'}
 
               today = datetime.now().strftime('%Y-%m-%d')
-              text = f"{content}\n\n[点击下载今日原文Markdown]({download_url})"
               data = {
                   "msgtype": "markdown",
                   "markdown": {
@@ -115,17 +114,17 @@ jobs:
               response = requests.post(webhook, headers=headers, data=json.dumps(data))
               return response.json()
 
-          # 读取markdown文件
-          filename = os.environ['FILENAME']
-          with open(f'daily_digest/{filename}', 'r', encoding='utf-8') as f:
-              content = f.read()
-
           # 生成下载链接
+          filename = os.environ['FILENAME']
           repo = os.environ['GITHUB_REPOSITORY']
+          today = datetime.now().strftime('%Y-%m-%d')
           download_url = f"https://github.com/{repo}/releases/download/daily/{filename}"
 
+          # 只发送日期和下载链接
+          text = f"**AI资讯日报 {today}**\n\n[点击下载今日原文Markdown]({download_url})"
+
           # 发送到钉钉
-          result = send_dingtalk_message(content, download_url)
+          result = send_dingtalk_message(text)
           print("钉钉发送结果:", result)
           if result.get('errcode') != 0:
               exit(1)
