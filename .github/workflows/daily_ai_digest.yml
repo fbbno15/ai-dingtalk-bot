@@ -51,6 +51,60 @@ jobs:
           name: all_sources_raw
           path: all_sources_raw.md
 
+      - name: Send to DingTalk
+        env:
+          DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
+          DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
+        run: |
+          python - <<EOF
+          import requests
+          import json
+          import time
+          import hmac
+          import base64
+          import hashlib
+          import os
+          from datetime import datetime
+          
+          def get_dingtalk_sign():
+              timestamp = str(round(time.time() * 1000))
+              secret = os.environ['DINGTALK_SECRET']
+              secret_enc = secret.encode('utf-8')
+              string_to_sign = '{}\n{}'.format(timestamp, secret)
+              string_to_sign_enc = string_to_sign.encode('utf-8')
+              hmac_code = hmac.new(secret_enc, string_to_sign_enc, digestmod=hashlib.sha256).digest()
+              sign = base64.b64encode(hmac_code).decode('utf-8')
+              return timestamp, sign
+          
+          def send_dingtalk_message(content):
+              timestamp, sign = get_dingtalk_sign()
+              webhook = f"https://oapi.dingtalk.com/robot/send?access_token={os.environ['DINGTALK_TOKEN']}&timestamp={timestamp}&sign={sign}"
+              
+              headers = {'Content-Type': 'application/json'}
+              
+              today = datetime.now().strftime('%Y-%m-%d')
+              data = {
+                  "msgtype": "markdown",
+                  "markdown": {
+                      "title": f"AI资讯日报 {today}",
+                      "text": content
+                  }
+              }
+              
+              response = requests.post(webhook, headers=headers, data=json.dumps(data))
+              return response.json()
+          
+          # 读取markdown文件
+          with open('all_sources_raw.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          # 发送到钉钉
+          result = send_dingtalk_message(content)
+          print("钉钉发送结果:", result)
+          if result.get('errcode') != 0:
+              exit(1)
+          EOF
+
       - name: Commit and push if changed
         run: |
           git config --local user.email "action@github.com"
