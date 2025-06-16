@@ -5,6 +5,9 @@ on:
     - cron: '30 11 * * *'  # 每天UTC 11:30，即北京时间19:30
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fetch-and-merge:
     runs-on: ubuntu-latest
