@@ -1,0 +1,54 @@
+name: Daily AI Digest Merge
+
+on:
+  schedule:
+    - cron: '30 11 * * *'  # 每天UTC 11:30，即北京时间19:30
+  workflow_dispatch:
+
+jobs:
+  fetch-and-merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run xiaohu
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+        run: python fetch_xiaohu_tab2.py
+
+      - name: Run bestreader
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+        run: python fetch_hub_bestreader.py
+
+      - name: Run aibase
+        env:
+          OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
+        run: python fetch_aibase_daily.py
+
+      - name: Merge all sources
+        run: python merge_all_sources.py
+
+      - name: Upload merged markdown as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: all_sources_raw
+          path: all_sources_raw.md
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add all_sources_raw.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily AI digest" && git push)
