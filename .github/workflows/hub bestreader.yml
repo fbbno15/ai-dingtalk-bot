@@ -1,0 +1,9 @@
+- name: Run fetch_hub_bestreader.py
+run: |
+python fetch_hub_bestreader.py
+
+- name: Upload bestreader markdown as artifact
+uses: actions/upload-artifact@v4
+with:
+name: bestreader_ai_products
+path: bestreader_ai_products.md
