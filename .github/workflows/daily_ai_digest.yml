@@ -18,8 +18,8 @@ jobs:
       - name: Set today and filename
         id: set-today
         run: |
-          echo "today=$(date +%Y-%m-%d)" >> $GITHUB_OUTPUT
-          echo "filename=AI资讯日报_$(date +%Y-%m-%d).md" >> $GITHUB_OUTPUT
+          echo "today=$(TZ=Asia/Shanghai date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          echo "filename=AI_${{ steps.set-today.outputs.today }}.md" >> $GITHUB_OUTPUT
 
       - name: Set up Python
         uses: actions/setup-python@v4
