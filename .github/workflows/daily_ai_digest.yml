@@ -11,9 +11,6 @@ permissions:
 jobs:
   fetch-and-merge:
     runs-on: ubuntu-latest
-    env:
-      TODAY: ${{ steps.set-today.outputs.today }}
-      FILENAME: ${{ steps.set-today.outputs.filename }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -55,6 +52,8 @@ jobs:
         run: python merge_all_sources.py
 
       - name: Create daily digest markdown
+        env:
+          FILENAME: ${{ steps.set-today.outputs.filename }}
         run: |
           mkdir -p daily_digest
           cp all_sources_raw.md "daily_digest/${FILENAME}"
@@ -65,7 +64,7 @@ jobs:
           tag_name: daily
           name: 每日AI资讯
           body: "每日自动更新AI资讯原文Markdown文件"
-          files: daily_digest/${{ env.FILENAME }}
+          files: daily_digest/${{ steps.set-today.outputs.filename }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -73,7 +72,7 @@ jobs:
         env:
           DINGTALK_TOKEN: ${{ secrets.DINGTALK_TOKEN }}
           DINGTALK_SECRET: ${{ secrets.DINGTALK_SECRET }}
-          FILENAME: ${{ env.FILENAME }}
+          FILENAME: ${{ steps.set-today.outputs.filename }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
           python - <<EOF
