@@ -59,12 +59,14 @@ jobs:
           cp all_sources_raw.md "daily_digest/${FILENAME}"
 
       - name: Upload to GitHub Release (daily)
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
-          tag_name: daily
+          tag: daily
           name: 每日AI资讯
           body: "每日自动更新AI资讯原文Markdown文件"
-          files: daily_digest/${{ steps.set-today.outputs.filename }}
+          artifacts: daily_digest/${{ steps.set-today.outputs.filename }}
+          allowUpdates: true
+          replacesArtifacts: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
