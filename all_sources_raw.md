@@ -1,181 +1,180 @@
 # AI 产品新发现
 
-## Chronicle: Cursor for Slides
+## AgentX 2.0
 
-一个AI演示文稿工具，无需设计技能，快速生成演示文稿。适合需要制作演示文稿的职场人士，Chronicle结合AI技术和精美模板，帮助用户将想法转化为引人注目的演示文稿。用户可以通过AI工作流进行创作，并与团队协作，适用于商业提案、团队汇报等多种场景，提升演示文稿的制作效率和质量。
+一个多智能体协作平台，支持跨平台AI模型协同工作。适合需要自动化营销流程的企业和营销人员，通过构建AI智能体团队，利用不同的LLM（大型语言模型）和工具，协同解决复杂的营销任务，如内容生成、客户互动等。支持所有主流LLM，并提供1000+工具和MCPs（多通道入口平台），实现不同AI模型之间的无缝协作。
 
-[Chronicle: Cursor for Slides](https://chroniclehq.com/?ref=hub.bestreader.ai) #Design Tools #Productivity
-
-
----
-
-## Bubble for native mobile apps (beta)
-
-一个免代码原生移动应用开发平台，无需代码，轻松构建iOS和Android应用。适合创业者和开发者，Bubble提供了一个无需编码即可设计、构建、测试和发布原生iOS和Android移动应用的平台。用户可以快速实现移动应用的想法，例如体育训练、旅游、医疗记录和文字游戏等，降低了移动应用开发的门槛和成本。
-
-[Bubble for native mobile apps (beta)](https://bubble.io/?ref=hub.bestreader.ai) #Android #iOS
+[AgentX 2.0](https://www.agentx.so/?ref=hub.bestreader.ai) #Artificial Intelligence #No-Code
 
 
 ---
 
-## FuseBase AI Agents
+## ComputerX
 
-一个AI助手，通过智能化协作，提升团队效率。适合需要团队协作的企业，通过AI Agent处理日常任务，如会议安排、文档整理等，内置的AI Agents可以处理耗时任务，团队可以专注于更重要的工作。最新的MCP集成连接您需要的所有服务。
+一个智能电脑代理，处理电脑工作，提升效率。适合需要提升工作效率的上班族，ComputerX可以代理完成电脑上的重复性工作，让你专注于更重要的任务，从而减少忙碌感，进入专注状态，完成更多工作。
 
-[FuseBase AI Agents](http://thefusebase.com/?ref=hub.bestreader.ai) #Chrome Extensions #Productivity
-
-
----
-
-## Flowstep
-
-一个AI设计助手，文本生成UI设计，提高效率。适合设计师和产品经理，通过简单的文本提示，快速生成UI设计、线框图和流程图，加速工作流程。用户可以通过内置建议轻松迭代，并进行实时协作，将想法快速转化为实际设计。
-
-[Flowstep](https://flowstep.ai/?ref=hub.bestreader.ai) #Design Tools #Productivity
+[ComputerX](https://computerx.ai/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
 
 
 ---
 
-## Dia Browser
+## Thunai
 
-一个AI浏览器，能与标签页互动，注重隐私。适合研究人员和内容创作者，可以一边浏览网页，一边与AI助手对话，快速学习和规划。该浏览器由The Browser Company推出，支持用户以自己的声音写作，并提供购物等功能，同时保障用户可控的隐私。
+一个AI智能平台，具有真人般的实时语音和屏幕辅助能力。适合需要提升客户服务效率的企业，Thunai是一个Agentic AI 平台，拥有自学习能力，可以将企业知识转化为智能客服，处理电话、聊天、邮件和任务，自动执行支持、销售和营销工作。可以用于工单处理、内容生成、日程安排和潜在客户挖掘等多种场景。
 
-[Dia Browser](https://www.diabrowser.com/?ref=hub.bestreader.ai) #Education #Artificial Intelligence
-
-
----
-
-## Solar
-
-一个无限画布应用平台，AI赋能实时软件开发。适合小型开发团队和个人开发者，Solar 允许团队与AI Agent协作，像使用Figma一样构建和部署生产应用，但无需先创建模型，而是直接生成包含实时数据和后端功能的软件，加速软件开发流程。
-
-[Solar](https://try.solar/?ref=hub.bestreader.ai) #Productivity #Developer Tools
+[Thunai](https://www.thunai.ai/?ref=hub.bestreader.ai) #Android #Chrome Extensions
 
 
 ---
 
-## Page AI
+## Softr Databases
 
-一个AI网站生成器，一键设计、编码和部署。适合创业者和小型企业，只需简单prompt，Page AI 就能在几分钟内完成落地页（用户打开的第一个页面）的规划、设计和编码，并使用开源、有完整文档的组件，搭建线框图，撰写文案，选择颜色和字体，并支持一键定制。可以选择获取源代码或直接部署，适用于快速搭建和验证网站想法的场景。
+一个数据库搭建工具，无需代码，快速构建应用。适合需要数据管理的个人和企业，无需编写代码，即可创建关系数据库来管理数据，并支持全栈商业应用。用户可以从头开始构建，导入CSV，或使用现成的模板，简化数据管理和应用开发流程。
 
-[Page AI](https://pageai.pro/?ref=hub.bestreader.ai) #Website Builder #Developer Tools
-
-
----
-
-## Kling 2.1
-
-一个AI视频创作工具，渲染快且质量高。适合视频创作者，Kling 2.1提供Standard、Pro和Master模型，在AI视频创作领域，实现更快的渲染速度、更低的成本和卓越的视频质量。让所有创作者都能轻松使用AI技术进行视频制作，享受AI技术带来的高效和高质量的创作体验。
-
-[Kling 2.1](https://klingai.com/?ref=hub.bestreader.ai) #API #Open Source
+[Softr Databases](http://softr.io/?ref=hub.bestreader.ai) #Productivity #No-Code
 
 
 ---
 
-## Glims (Beta)
+## Liveblocks 3.0
 
-一个快速制作短视频的工具，像Figma一样简单。适合营销人员和社交媒体运营者，Glims能将静态照片或设计稿快速转化为引人注目的短视频，操作简便，无需专业视频编辑技能，直接在浏览器中使用，适用于快速制作营销素材和社交媒体内容。
+一个协作功能SDK，集成AI助手、评论、多人编辑等。适合开发者，将AI助手、评论和多人编辑等功能快速集成到产品中，可以提高用户参与度，促进业务增长。例如，在在线文档、设计工具或协同办公软件中，开发者可以利用Liveblocks提供的现成功能，减少重复开发工作，专注于核心业务逻辑。
 
-[Glims (Beta)](https://glims.io/?ref=hub.bestreader.ai) #Design Tools #GIFs
-
-
----
-
-## Magistral
-
-Mistral AI的推理模型，擅长特定领域、透明且多语种的推理。适合需要进行复杂推理的开发者和企业，Magistral 提供开源24B版本（Small）和企业版本（Medium），擅长特定领域的推理，具有透明性和多语言支持能力。助力AI应用在专业领域的应用。
-
-[Magistral](https://mistral.ai/?ref=hub.bestreader.ai) #Open Source #Artificial Intelligence
+[Liveblocks 3.0](https://liveblocks.io/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## Instance
+## Tila AI
 
-一个AI驱动的应用构建器，用自然语言快速生成应用。适合有创意但缺乏编程技能的个人和团队，可以通过描述想法，快速构建iOS、Android和Web应用、游戏和网站，Instance通过AI驱动，将想法转化为现实，无需编写代码，极大地降低了应用开发的门槛，加速创意落地。
+一个可视化AI工作空间，无需切换标签页。适合设计师、创意工作者，在一个工作区中使用GPT-4、DALL·E、Kling、Luma等AI模型进行创作、编码、搜索和设计，避免在不同应用间切换，提升多模态项目的工作效率。
 
-[Instance](https://instance.so/?ref=hub.bestreader.ai) #Android #Developer Tools
-
-
----
-
-## Sun
-
-一个习惯追踪和任务管理工具，设计简洁功能强大。适合希望培养良好习惯的个人，通过Sun追踪习惯，设定目标，并获得详细的统计数据和提醒，在日常生活中保持高度自律和效率。产品设计简洁，功能强大，免费开始使用，随时可以升级，帮助用户养成卓越的习惯。
-
-[Sun](https://apps.apple.com/us/app/habit-tracker-todo-task-sun/id6738126035?platform=iphone&ref=hub.bestreader.ai) #Productivity #Task Management
+[Tila AI](https://tila.ai/?ref=hub.bestreader.ai) #Design Tools #Productivity
 
 
 ---
 
-## Keboola MCP Server
+## Krea 1
 
-一个AI数据管道构建器，通过提示词快速搭建数据流。适合数据工程师和分析师，通过自然语言描述需求，Keboola MCP Server可以利用Claude、Cursor或ChatGPT等AI模型，自动构建包含错误处理、日志记录和权限控制的数据管道，在几秒钟内完成生产级别的数据基础设施搭建，简化数据处理流程。
+一个AI图像生成工具，提供逼真皮肤和动态视角。适合设计师和艺术家，Krea 1 生成的 AI 图像具有更真实的皮肤纹理、动态相机角度和富有表现力的色彩，可以用于生成独特的视觉内容。通过使用 Krea 1，用户可以探索艺术潜能，创作出与众不同的图像作品，摆脱传统AI生成图像的审美疲劳。
 
-[Keboola MCP Server](https://keboola.com/mcp?ref=hub.bestreader.ai) #Artificial Intelligence #Data & Analytics
-
-
----
-
-## Tickup
-
-股票界的“Tinder”，用AI简化股票发现过程。适合对股票投资感兴趣的用户，Tickup 结合金融数据和社交数据，利用AI技术，通过简单的滑动操作发现潜在的投资标的。用户可以快速浏览股票信息，轻点一下即可深入研究，降低了股票投资的门槛，更轻松地进行投资决策。
-
-[Tickup](https://tickupapp.com/?ref=hub.bestreader.ai) #Fintech #Investing
+[Krea 1](https://www.krea.ai/?ref=hub.bestreader.ai) #Design Tools #Artificial Intelligence
 
 
 ---
 
-## kukumber:
+## Wonderish
 
-儿童AI数学伙伴，寓教于乐，培养孩子数学兴趣。适合5-9岁儿童的家长，kukumber 帮助孩子们培养学习习惯，增强自信心，每天只需20分钟。通过1000+有趣的课程和一个会说话的AI吉祥物，让孩子们在没有广告干扰的环境下，享受充满乐趣的数学学习体验。这个产品由100多位家长和老师共同打造。
+一个氛围编码工具，无需代码，轻松构建精美页面。适合设计师和创意工作者，无需编写代码，即可通过氛围提示（vibe prompting）创建出色的页面、应用和体验。类似于Canva，但专注于更轻松、更直观的创作过程，适合快速原型设计和视觉表达。
 
-[kukumber:](https://kukumber.kids/?ref=hub.bestreader.ai) #Parenting #Kids
-
-
----
-
-## Wegic
-
-一个AI驱动的网站构建工具，自动优化内容，提升销售额。适合中小企业主和营销人员，Wegic利用AI技术自动优化网站，分析访客行为，并调整内容以提高销售额。用户可以通过连接账户添加支付功能，并使用对话式AI收集潜在客户信息。Wegic Ultra功能可以在用户休息时自动优化网站，实现网站的自动增长。
-
-[Wegic](https://wegic.ai/?ref=hub.bestreader.ai) #Website Builder #No-Code
+[Wonderish](https://www.wonderish.ai/?ref=hub.bestreader.ai) #Design Tools #Artificial Intelligence
 
 
 ---
 
-## Commerce Copilot
+## FoundersAround
 
-一个AI商店客服，提供全天候的购物支持。适合电商平台的商家，Commerce Copilot充当AI销售员和客服代表，在聊天中引导购物者找到商品，促成结账，处理订单跟踪和退货，并支持50多种语言。只需5分钟即可接入Fynd、Shopify、WooCommerce等平台，全天候提升客户购物体验。
+一个创业者社区，发现世界各地的创业者。适合创业者和市场营销人员，发现世界各地的创业者，展示产品，进行市场推广。帮助创业者建立联系，拓展市场。
 
-[Commerce Copilot](https://www.copilot.live/?ref=hub.bestreader.ai) #SaaS #Artificial Intelligence
-
-
----
-
-## millionship.dev
-
-一个趣味产品展示平台，告别社恐营销。适合独立开发者，MillionShip提供了一个有趣的平台，让开发者可以通过选择一艘船，将其放置在3D地球上，从而展示自己的产品，无需强行推销，让世界发现你的产品，适用于希望以轻松有趣的方式推广产品的场景。
-
-[millionship.dev](https://millionship.dev/?ref=hub.bestreader.ai) #Marketing #Developer Tools
+[FoundersAround](https://foundersaround.com/?ref=hub.bestreader.ai) #Marketing #
 
 
 ---
 
-## VibrantSnap
+## Perplexity Tasks
 
-一个AI视频制作工具，无需绿幕和复杂编辑。适合需要快速制作演示视频的职场人士，无需复杂的设备和编辑技能，即可通过VibrantSnap轻松录制屏幕，并使用AI技术优化语音和形象，快速生成高质量的视频内容，非常适合远程沟通和在线教育。
+一个AI驱动的自动化研究助手，日程化检索。适合需要定期进行信息收集和研究的用户，通过设置关键词和时间表（每天、每周、每月），让Perplexity（一个AI搜索引擎）自动运行搜索任务并定期发送结果，提高研究效率，特别是在信息追踪、市场调研等场景下。
 
-[VibrantSnap](https://www.vibrantsnap.com/?ref=hub.bestreader.ai) #Design Tools #Productivity
+[Perplexity Tasks](https://www.perplexity.ai/?ref=hub.bestreader.ai) #Productivity #Task Management
 
 
 ---
 
-## Chunk
+## Oakley Meta Glasses
 
-一个macOS时间管理工具，专注无干扰，提高效率。适合需要高效管理时间的Mac用户，Chunk 提供精准的时间块规划、全屏提醒等功能，帮助用户专注工作，内置日历集成，更好地融入用户的工作流程，适用于提升工作效率和时间管理。
+一款Oakley和Meta合作的AI眼镜，解放双手。适合运动爱好者和科技尝鲜者，这款眼镜结合了Meta AI技术和Oakley的专业眼镜设计，通过免提视频拍摄、开放式扬声器音乐播放和Meta AI实时问答，帮助用户在运动或日常生活中更便捷地获取信息和记录瞬间。7月11日开放预订。
 
-[Chunk](https://www.chunkapp.net/?ref=hub.bestreader.ai) #Mac #Productivity
+#Sports #Wearables
+
+---
+
+## Pulze
+
+一个AI agent构建平台，无需工程师也能使用。适合需要自动化工作流程的团队，无需编写代码即可构建AI Agents，自动化任务，支持50+模型，并能本地或云端部署，简化AI应用流程。
+
+[Pulze](https://www.pulze.ai/?ref=hub.bestreader.ai) #Productivity #Task Management
+
+
+---
+
+## Free AI Selfie Generator by Magic Hour
+
+一个免费AI自拍生成器，将照片变成艺术，无需注册。适合喜欢个性化头像的社交媒体用户，无需注册即可将自拍照转换成各种风格的AI艺术作品，包括Studio Ghibli、Pixar等，快速生成独特个人资料图片，为社交形象增添趣味和艺术感。
+
+[Free AI Selfie Generator by Magic Hour](https://magichour.ai/?ref=hub.bestreader.ai) #Art #Artificial Intelligence
+
+
+---
+
+## Fluidworks: AI agent for User Onboarding
+
+一个用户引导AI助手，无需代码，提升用户激活率。适合SaaS公司，将类人AI助手嵌入SaaS产品中，通过对话、点击和引导，为每个用户提供个性化的上手体验，提高用户激活率，减少支持请求，无需编写任何代码。
+
+[Fluidworks: AI agent for User Onboarding](https://fluidworks.ai/?ref=hub.bestreader.ai) #Customer Success #Customer Communication
+
+
+---
+
+## Second Brain
+
+一个AI可视化知识库，支持AI聊天和知识关联。适合知识工作者和研究人员，Second Brain 允许用户在可视化看板上整理信息，并通过 AI 与看板上的任何内容进行聊天，逐步构建相互关联的知识库。用户可以随时与知识库中的任何内容进行 AI 聊天，从而更好地理解和利用信息。
+
+[Second Brain](https://www.thesecondbrain.io/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
+
+
+---
+
+## Databutton
+
+一个AI开发工具，赋能企业快速构建全栈应用。适合希望快速解决业务问题的企业，Databutton 提供了一个协作式 AI 开发环境，只需描述业务需求，提供可选的文档和设计灵感，Databutton 的推理代理（reasoning agent）会学习、计划和执行任务，帮助用户在 60 分钟内将想法转化为可用的全栈业务工具。
+
+[Databutton](https://databutton.com/new?utm_source=producthunt&utm_medium=website&utm_campaign=neon&ref=hub.bestreader.ai) #Productivity #Developer Tools
+
+
+---
+
+## EntelligenceAI VSCode Extension
+
+一个AI代码审查工具，在IDE内直接进行代码审查。适合软件工程师，在编码过程中直接在VS Code、Cursor和Windsurf等集成开发环境（IDE）中捕获错误、问题和性能瓶颈，无需离开编辑器即可获得AI代码审查，方便用户尽早发现并修复代码问题，提升代码质量和开发效率。
+
+[EntelligenceAI VSCode Extension](https://www.entelligence.ai/?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
+
+
+---
+
+## MailMood - AI Email Rewriter
+
+一款Chrome插件，一键优化邮件措辞，更专业。适合职场人士，MailMood 是一款Chrome扩展程序，用于快速优化电子邮件的语气，只需一键，即可将随意、冒犯或尴尬的邮件措辞转化为清晰、自信和现代的商务语言，提升邮件沟通的专业性。
+
+[MailMood - AI Email Rewriter](https://chromewebstore.google.com/detail/ppmeaeheehbiapiiahhiegnefjhpbhph?utm_source=item-share-cb&ref=hub.bestreader.ai) #Chrome Extensions #Email
+
+
+---
+
+## ittybit
+
+一个媒体API工具，自动化处理音视频和图像。适合开发者，使用 ittybit 的媒体 API 来存储、转换和获取视频、音频和图像文件的信息。只需几行代码即可开始，并在准备就绪时扩展到数百万次上传。可以免费试用ittybit（无需信用卡），用于处理各种媒体文件。
+
+[ittybit](https://ittybit.com/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
+
+
+---
+
+## Laravel Nightwatch
+
+一个Laravel应用监控工具，全方位监控应用健康。适合使用Laravel框架的开发者，连接应用中的每个Laravel事件（从请求、查询到任务和缓存操作），全面了解应用健康状况。
+
+[Laravel Nightwatch](https://laravel.com/?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
 
 
 ---
@@ -229,25 +228,15 @@ Mistral AI的推理模型，擅长特定领域、透明且多语种的推理。�
 
 ## Perplexity重磅升级!定时任务+SEC金融数据,炒股分析神器来了!
 
-· 定时任务功能上线,自动整理金融资讯,节省手动搜索时间.   
-· SEC数据加持,将复杂数据转化为易懂分析结果,支持多维度查询.   
-· AI交互体验直观,适合个人投资者及专业分析师,助力精准投资决策.
+· 定时任务功能上线,自动整理金融资讯,节省手动搜索时间。
+· SEC数据加持,将复杂数据转化为易懂分析结果,支持多维度查询。
+· AI交互体验直观,适合个人投资者及专业分析师,助力精准投资决策。
 
 ## 人人皆可创作音乐!腾讯 AI Lab 推出开源音乐生成大模型 SongGeneration
 
-· SongGeneration 提升了音乐生成的音质与速度,解决行业难题.   
-· 用户可通过关键词或参考音频生成个性化音乐,创作更自由.   
-・ 基于3B参数的大型架构,经过海量歌曲预训练,实现智能化音乐生成.   
+· SongGeneration 提升了音乐生成的音质与速度,解决行业难题。
+· 用户可通过关键词或参考音频生成个性化音乐,创作更自由。
+・ 基于3B参数的大型架构,经过海量歌曲预训练，实现智能化音乐生成。
 [详情链接](https://huggingface.co/spaces/tencent/SongGeneration)
 
 👉🏻AI 世界瞬息万变，在评论区留下观点或投稿你关注的前沿链接，让更多人看到你的视角！
-
----
-
-## Meta与Oakley合作推出的Oakley Meta HSTN
-
-· Oakley Meta HSTN智能运动眼镜结合AI技术与运动设计，提升运动体验  
-· 内置Meta AI助手，支持语音控制、高清摄像和运动数据分析  
-· 具备PRIZM™镜片技术和IPX4防水设计，适合各种极限运动  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/meta-oakley-meta-hstn)  
-#AI资讯 #产品动态
