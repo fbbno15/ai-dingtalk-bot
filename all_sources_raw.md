@@ -186,10 +186,20 @@
 
 ---
 
-## Deepmind 推出新一代 Gemini Robotics On-Device 机器人AI模型
+## 
 
-· 新模型可在机器人本体上独立运行，无需云端计算资源  
-· 整合视觉、语言理解和动作决策能力，完成复杂任务  
-· 支持极少样本下的新任务适应，降低开发和部署门槛  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/deepmind-ai)  
+· ElevenLabs 发布 Voice Design v3，支持文本提示词生成个性化语音  
+· 新版本具备更高音质和丰富表达力，支持 70+ 语言和多种口音  
+· 提供 API 接口，适用于产品集成和个性化内容生成  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/elevenlabs-voice-design-v3-70)  
+#AI资讯 #产品动态
+
+---
+
+## Anthropic 宣布为 Claude 推出两种全新创作方式
+
+· Claude Artifacts 是交互式 AI 应用构建模块，生成可运行“微应用”或原型系统  
+· 无需部署或写代码，直接在 Claude 界面运行并分享  
+· 支持文本补全逻辑，适合内容生成、分类、总结等 AI 应用  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/anthropic-claude-claude-artifacts-claude-ai)  
 #AI资讯 #产品动态
