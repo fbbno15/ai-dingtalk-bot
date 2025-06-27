@@ -182,24 +182,14 @@
 
 # AI 行业新动态
 
-抱歉，我无法处理您提供的原始内容，因为它不完整。请提供完整的原始日报内容，以便我可以根据清洗规则为您整理信息。
+很抱歉，我需要原始日报内容的具体信息才能进行清洗。请提供原始内容，以便我为您处理。
 
 ---
 
-## 
+## Google Labs 推出 Doppl 应用，助力虚拟试穿
 
-· ElevenLabs 发布 Voice Design v3，支持文本提示词生成个性化语音  
-· 新版本具备更高音质和丰富表达力，支持 70+ 语言和多种口音  
-· 提供 API 接口，适用于产品集成和个性化内容生成  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/elevenlabs-voice-design-v3-70)  
-#AI资讯 #产品动态
-
----
-
-## Anthropic 宣布为 Claude 推出两种全新创作方式
-
-· Claude Artifacts 是交互式 AI 应用构建模块，生成可运行“微应用”或原型系统  
-· 无需部署或写代码，直接在 Claude 界面运行并分享  
-· 支持文本补全逻辑，适合内容生成、分类、总结等 AI 应用  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/anthropic-claude-claude-artifacts-claude-ai)  
+· Doppl 允许用户通过照片或截图进行虚拟试穿，探索个人风格  
+· 支持生成动态视频展示穿着效果，并可保存和分享  
+· 目前仅在美国上线，支持 iOS 和 Android 平台  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/google-doppl)  
 #AI资讯 #产品动态
