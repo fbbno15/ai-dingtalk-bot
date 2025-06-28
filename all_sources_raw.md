@@ -186,10 +186,20 @@
 
 ---
 
-## Google Labs 推出 Doppl 应用，助力虚拟试穿
+## Qwen VLo 是一个统一的多模态大模型（Unified Multimodal Model）
 
-· Doppl 允许用户通过照片或截图进行虚拟试穿，探索个人风格  
-· 支持生成动态视频展示穿着效果，并可保存和分享  
-· 目前仅在美国上线，支持 iOS 和 Android 平台  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/google-doppl)  
+· 能理解和生成图像，并通过自然语言指令控制整个过程  
+· 支持多语言输入，提升用户体验，适用于视觉感知和生成任务  
+· 采用逐步生成机制，提高细节稳定性，支持复杂操作组合  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/qwen-vlo)  
+#AI资讯 #产品动态
+
+---
+
+## AlphaGenome：新型 AI 模型助力基因调控研究
+
+· AlphaGenome 预测 DNA 变异对基因调控的影响，尤其关注非编码区  
+· 在 DNA 序列长度、预测分辨率和多模态建模能力上实现突破  
+· 支持 API 调用，为科学家提供跨模态一体化预测能力  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/google-ai-alphagenome-dna)  
 #AI资讯 #产品动态
