@@ -1,180 +1,181 @@
 # AI 产品新发现
 
-## AgentX 2.0
+## How does it work?
 
-一个多智能体协作平台，支持跨平台AI模型协同工作。适合需要自动化营销流程的企业和营销人员，通过构建AI智能体团队，利用不同的LLM（大型语言模型）和工具，协同解决复杂的营销任务，如内容生成、客户互动等。支持所有主流LLM，并提供1000+工具和MCPs（多通道入口平台），实现不同AI模型之间的无缝协作。
+一个AI人脉管理工具，整合多平台信息，研究在线活动。适合需要维护人脉的专业人士，整合iMessage、WhatsApp、LinkedIn、Google、Email、Calendar和X等多个社交平台的信息，通过AI分析联系人的在线活动，帮助用户更好地了解人脉，从而更有效地管理人际关系。
 
-[AgentX 2.0](https://www.agentx.so/?ref=hub.bestreader.ai) #Artificial Intelligence #No-Code
-
-
----
-
-## ComputerX
-
-一个智能电脑代理，处理电脑工作，提升效率。适合需要提升工作效率的上班族，ComputerX可以代理完成电脑上的重复性工作，让你专注于更重要的任务，从而减少忙碌感，进入专注状态，完成更多工作。
-
-[ComputerX](https://computerx.ai/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
+[How does it work?](https://pally.com/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
 
 
 ---
 
-## Thunai
+## mysite.ai
 
-一个AI智能平台，具有真人般的实时语音和屏幕辅助能力。适合需要提升客户服务效率的企业，Thunai是一个Agentic AI 平台，拥有自学习能力，可以将企业知识转化为智能客服，处理电话、聊天、邮件和任务，自动执行支持、销售和营销工作。可以用于工单处理、内容生成、日程安排和潜在客户挖掘等多种场景。
+一个AI建站工具，无需编码快速搭建网站并获取潜在客户。适合需要快速搭建网站的企业和个人，无需模板和拖拽，只需回答几个问题，Mysite.ai就能在2分钟内生成网站、撰写内容并获取潜在客户。特别适合不熟悉编程的用户，可以免费试用，无需注册。
 
-[Thunai](https://www.thunai.ai/?ref=hub.bestreader.ai) #Android #Chrome Extensions
-
-
----
-
-## Softr Databases
-
-一个数据库搭建工具，无需代码，快速构建应用。适合需要数据管理的个人和企业，无需编写代码，即可创建关系数据库来管理数据，并支持全栈商业应用。用户可以从头开始构建，导入CSV，或使用现成的模板，简化数据管理和应用开发流程。
-
-[Softr Databases](http://softr.io/?ref=hub.bestreader.ai) #Productivity #No-Code
+[mysite.ai](https://mysite.ai/?utm_source=producthunt&utm_medium=organic&utm_campaign=ph-launch-june25&ref=hub.bestreader.ai) #Advertising #Artificial Intelligence
 
 
 ---
 
-## Liveblocks 3.0
+## FlashDocs API
 
-一个协作功能SDK，集成AI助手、评论、多人编辑等。适合开发者，将AI助手、评论和多人编辑等功能快速集成到产品中，可以提高用户参与度，促进业务增长。例如，在在线文档、设计工具或协同办公软件中，开发者可以利用Liveblocks提供的现成功能，减少重复开发工作，专注于核心业务逻辑。
+一个AI驱动的API，定制PPT和Google幻灯片。适合需要批量生成演示文稿的用户，FlashDocs 允许你通过一个API调用，从你的产品中生成Google Slides和PowerPoint演示文稿。支持Markdown、图表、图片、表格、合并标签和品牌主题等元素。
 
-[Liveblocks 3.0](https://liveblocks.io/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
-
-
----
-
-## Tila AI
-
-一个可视化AI工作空间，无需切换标签页。适合设计师、创意工作者，在一个工作区中使用GPT-4、DALL·E、Kling、Luma等AI模型进行创作、编码、搜索和设计，避免在不同应用间切换，提升多模态项目的工作效率。
-
-[Tila AI](https://tila.ai/?ref=hub.bestreader.ai) #Design Tools #Productivity
+[FlashDocs API](https://flashdocs.com/?ref=hub.bestreader.ai) #API #Developer Tools
 
 
 ---
 
-## Krea 1
+## Pythagora 2.0
 
-一个AI图像生成工具，提供逼真皮肤和动态视角。适合设计师和艺术家，Krea 1 生成的 AI 图像具有更真实的皮肤纹理、动态相机角度和富有表现力的色彩，可以用于生成独特的视觉内容。通过使用 Krea 1，用户可以探索艺术潜能，创作出与众不同的图像作品，摆脱传统AI生成图像的审美疲劳。
+一个AI开发平台，从规划到部署，一站式服务。适合开发者和创业者，Pythagora提供从规划到部署的完整AI开发流程，可以构建完整的全栈应用程序，并部署到任何地方。它超越了简单的代码生成，涵盖了软件开发的各个方面，帮助用户快速构建和部署可供真实用户使用的AI应用。
 
-[Krea 1](https://www.krea.ai/?ref=hub.bestreader.ai) #Design Tools #Artificial Intelligence
-
-
----
-
-## Wonderish
-
-一个氛围编码工具，无需代码，轻松构建精美页面。适合设计师和创意工作者，无需编写代码，即可通过氛围提示（vibe prompting）创建出色的页面、应用和体验。类似于Canva，但专注于更轻松、更直观的创作过程，适合快速原型设计和视觉表达。
-
-[Wonderish](https://www.wonderish.ai/?ref=hub.bestreader.ai) #Design Tools #Artificial Intelligence
+[Pythagora 2.0](https://www.pythagora.ai/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## FoundersAround
+## HeyBoss AI Boss Mode
 
-一个创业者社区，发现世界各地的创业者。适合创业者和市场营销人员，发现世界各地的创业者，展示产品，进行市场推广。帮助创业者建立联系，拓展市场。
+一个AI驱动的建站工具，帮你全方位管理业务。适合创业者或小型企业主，通过AI团队（CEO、设计师、开发者、营销员和文案撰写人）在几分钟内创建品牌、编写文案、设计和构建网站，并提供全天候的托管、监控和业务增长服务，简化了建站和业务运营的流程。
 
-[FoundersAround](https://foundersaround.com/?ref=hub.bestreader.ai) #Marketing #
-
-
----
-
-## Perplexity Tasks
-
-一个AI驱动的自动化研究助手，日程化检索。适合需要定期进行信息收集和研究的用户，通过设置关键词和时间表（每天、每周、每月），让Perplexity（一个AI搜索引擎）自动运行搜索任务并定期发送结果，提高研究效率，特别是在信息追踪、市场调研等场景下。
-
-[Perplexity Tasks](https://www.perplexity.ai/?ref=hub.bestreader.ai) #Productivity #Task Management
+[HeyBoss AI Boss Mode](https://heybossai.com/?ref=hub.bestreader.ai) #Marketing #Website Builder
 
 
 ---
 
-## Oakley Meta Glasses
+## Ops AI by Middleware
 
-一款Oakley和Meta合作的AI眼镜，解放双手。适合运动爱好者和科技尝鲜者，这款眼镜结合了Meta AI技术和Oakley的专业眼镜设计，通过免提视频拍摄、开放式扬声器音乐播放和Meta AI实时问答，帮助用户在运动或日常生活中更便捷地获取信息和记录瞬间。7月11日开放预订。
+一个可观测性AI副驾驶，即时解决生产问题。适合运维工程师和开发团队，Ops AI 是一个可观测性协同工具，用于检测生产环境中的问题，包括APM（应用性能管理）追踪、RUM（真实用户监控）和日志，一键修复问题并在GitHub中生成pull request。
 
-#Sports #Wearables
-
----
-
-## Pulze
-
-一个AI agent构建平台，无需工程师也能使用。适合需要自动化工作流程的团队，无需编写代码即可构建AI Agents，自动化任务，支持50+模型，并能本地或云端部署，简化AI应用流程。
-
-[Pulze](https://www.pulze.ai/?ref=hub.bestreader.ai) #Productivity #Task Management
+[Ops AI by Middleware](https://middleware.io/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## Free AI Selfie Generator by Magic Hour
+## NativeMind
 
-一个免费AI自拍生成器，将照片变成艺术，无需注册。适合喜欢个性化头像的社交媒体用户，无需注册即可将自拍照转换成各种风格的AI艺术作品，包括Studio Ghibli、Pixar等，快速生成独特个人资料图片，为社交形象增添趣味和艺术感。
+一个完全私有的AI助手，基于本地运行的开源模型。适合注重数据隐私的用户，NativeMind 让你在浏览器中使用最新的AI模型，如Deepseek、Qwen和LLaMA，全部在本地运行，无需担心数据泄露，快速且安全。
 
-[Free AI Selfie Generator by Magic Hour](https://magichour.ai/?ref=hub.bestreader.ai) #Art #Artificial Intelligence
-
-
----
-
-## Fluidworks: AI agent for User Onboarding
-
-一个用户引导AI助手，无需代码，提升用户激活率。适合SaaS公司，将类人AI助手嵌入SaaS产品中，通过对话、点击和引导，为每个用户提供个性化的上手体验，提高用户激活率，减少支持请求，无需编写任何代码。
-
-[Fluidworks: AI agent for User Onboarding](https://fluidworks.ai/?ref=hub.bestreader.ai) #Customer Success #Customer Communication
+[NativeMind](https://nativemind.app/?utm_source=producthunt&ref=hub.bestreader.ai) #Chrome Extensions #Open Source
 
 
 ---
 
-## Second Brain
+## Runbear
 
-一个AI可视化知识库，支持AI聊天和知识关联。适合知识工作者和研究人员，Second Brain 允许用户在可视化看板上整理信息，并通过 AI 与看板上的任何内容进行聊天，逐步构建相互关联的知识库。用户可以随时与知识库中的任何内容进行 AI 聊天，从而更好地理解和利用信息。
+一个AI团队助手，通过Slack聊天学习，无需代码。适合需要提高团队效率的企业，在Slack中直接与Runbear AI队友互动，无需编写代码或设计流程图。Runbear可以学习团队的工作方式，承担诸如回答问题、查找信息、生成报告和安排会议等任务，从而释放团队成员的时间，专注于更重要的工作。
 
-[Second Brain](https://www.thesecondbrain.io/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
-
-
----
-
-## Databutton
-
-一个AI开发工具，赋能企业快速构建全栈应用。适合希望快速解决业务问题的企业，Databutton 提供了一个协作式 AI 开发环境，只需描述业务需求，提供可选的文档和设计灵感，Databutton 的推理代理（reasoning agent）会学习、计划和执行任务，帮助用户在 60 分钟内将想法转化为可用的全栈业务工具。
-
-[Databutton](https://databutton.com/new?utm_source=producthunt&utm_medium=website&utm_campaign=neon&ref=hub.bestreader.ai) #Productivity #Developer Tools
+[Runbear](https://runbear.io/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
 
 
 ---
 
-## EntelligenceAI VSCode Extension
+## Dyad: AI app builder without lock-in!
 
-一个AI代码审查工具，在IDE内直接进行代码审查。适合软件工程师，在编码过程中直接在VS Code、Cursor和Windsurf等集成开发环境（IDE）中捕获错误、问题和性能瓶颈，无需离开编辑器即可获得AI代码审查，方便用户尽早发现并修复代码问题，提升代码质量和开发效率。
+一个本地AI应用构建工具，开源免费，灵活无限制。适合开发者和编程爱好者，作为v0、Lovable和Bolt的替代方案，Dyad 允许用户使用任何AI模型（包括免费的 Gemini 和 OpenRouter），构建应用，避免了厂商锁定和功能限制。可在 Windows 和 Mac 上免费下载使用。
 
-[EntelligenceAI VSCode Extension](https://www.entelligence.ai/?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
-
-
----
-
-## MailMood - AI Email Rewriter
-
-一款Chrome插件，一键优化邮件措辞，更专业。适合职场人士，MailMood 是一款Chrome扩展程序，用于快速优化电子邮件的语气，只需一键，即可将随意、冒犯或尴尬的邮件措辞转化为清晰、自信和现代的商务语言，提升邮件沟通的专业性。
-
-[MailMood - AI Email Rewriter](https://chromewebstore.google.com/detail/ppmeaeheehbiapiiahhiegnefjhpbhph?utm_source=item-share-cb&ref=hub.bestreader.ai) #Chrome Extensions #Email
+[Dyad: AI app builder without lock-in!](https://dyad.sh/?ref=hub.bestreader.ai) #Open Source #Website Builder
 
 
 ---
 
-## ittybit
+## Read & Give by Bono
 
-一个媒体API工具，自动化处理音视频和图像。适合开发者，使用 ittybit 的媒体 API 来存储、转换和获取视频、音频和图像文件的信息。只需几行代码即可开始，并在准备就绪时扩展到数百万次上传。可以免费试用ittybit（无需信用卡），用于处理各种媒体文件。
+一个Chrome插件，阅读新闻的同时进行慈善捐赠。适合关注社会议题的用户，在浏览新闻时，通过AI分析新闻内容，推荐相关的可信赖的慈善机构，一键捐款并获得每周影响报告和统一的退税收据。让你在获取信息的同时，也能为社会做出贡献。
 
-[ittybit](https://ittybit.com/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
+[Read & Give by Bono](https://chromewebstore.google.com/detail/read-give/imhpjclknehbmpfmebnipdfcilhadflp?ref=hub.bestreader.ai) #Chrome Extensions #Fintech
 
 
 ---
 
-## Laravel Nightwatch
+## Cekura
 
-一个Laravel应用监控工具，全方位监控应用健康。适合使用Laravel框架的开发者，连接应用中的每个Laravel事件（从请求、查询到任务和缓存操作），全面了解应用健康状况。
+一个AI语音和聊天代理的QA工具，加速产品发布。适合对话式AI公司，Cekura提供端到端的质量保证，用于语音和聊天AI代理的预生产测试和模拟，以及生产环境的监控，确保在每个开发阶段的质量和可靠性。帮助企业更快地发布高质量的AI语音和聊天应用。
 
-[Laravel Nightwatch](https://laravel.com/?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
+[Cekura](https://www.cekura.ai/?ref=hub.bestreader.ai) #SaaS #Developer Tools
+
+
+---
+
+## Clarify
+
+一个AI驱动的CRM，帮助销售人员提高销售额。适合创始人或早期销售人员，Clarify是一款自主运行的CRM，帮助用户拓展销售渠道，达成更多交易，并减少在CRM上花费的时间。通过AI技术，Clarify可以自动化处理CRM的繁琐工作，让销售人员专注于更重要的销售活动，从而提高销售效率和业绩。
+
+[Clarify](https://clarify.ai/?utm_source=product_hunt&utm_medium=referral&utm_campaign=launch&ref=hub.bestreader.ai) #Sales #Artificial Intelligence
+
+
+---
+
+## Optibot
+
+一个AI代码审查工具，保障代码安全。适合软件开发团队，Optibot 是一款AI代码审查工具，可以进行代码审查和维护。它集成在GitHub中，可以评审PR（Pull Request），修复CI（持续集成）问题，并长期保持代码的清洁。由Optimal AI构建，帮助开发团队提高代码质量和开发效率。
+
+[Optibot](https://getoptimal.ai/?ref=hub.bestreader.ai) #Productivity #Developer Tools
+
+
+---
+
+## Rumora
+
+一个YouTube营销工具，在评论区自动触达目标用户。适合创业公司和营销人员，Rumora.ai 能够找到你所在领域的热门内容，并在评论中自然地提及你的产品或服务，提高网站访问量和转化率，提供7天无风险试用。
+
+[Rumora](https://rumora.ai/?ref=hub.bestreader.ai) #Marketing #Growth Hacking
+
+
+---
+
+## MoodGallery: Emotions to art
+
+一个情绪转艺术的APP，用AI将心情变成个性化作品。适合关注个人情绪和心理健康的用户，通过每日记录心情，将情绪转化为独特的AI艺术作品。随着情绪的变化，你的画廊也会不断成长，形成一个视觉化的内心日记。你还可以邀请朋友来探索你的情感展览，通过艺术体验你的故事。
+
+[MoodGallery: Emotions to art](https://moodgallery.app/?ref=hub.bestreader.ai) #iOS #Health & Fitness
+
+
+---
+
+## Byterover
+
+AI编码助手记忆层，自提升最佳实践。适合AI编码Agent开发者，通过安装Byterover扩展到AI IDE（如Cursor、Windsurf），跨项目和团队创建、检索和管理代码规范，提升AI编码效率和代码质量。
+
+[Byterover](https://byterover.dev/?ref=hub.bestreader.ai) #Productivity #Developer Tools
+
+
+---
+
+## DeskMinder²
+
+一个macOS桌面提醒工具，一键创建，效率提升。适合容易分心的 macOS 用户，尤其是有注意力缺陷多动障碍（ADHD）的人群，通过醒目的桌面提醒和任务管理，帮助他们快速创建和管理任务，提高工作效率和时间管理能力。
+
+[DeskMinder²](https://appps.od.ua/deskminder?ref=hub.bestreader.ai) #Productivity #Task Management
+
+
+---
+
+## MyLens.ai
+
+一个AI内容可视化工具，将想法转化为互动视觉效果。适合学生、教师、内容创作者和研究人员，在学习、教学、内容创作或演示场景中，快速将文本、PDF、图像、网页或YouTube视频等多种来源的内容转化为清晰、可编辑的互动视觉图，突出重点，方便用户更好地理解和展示信息。
+
+[MyLens.ai](https://mylens.ai/?ref=hub.bestreader.ai) #Education #Artificial Intelligence
+
+
+---
+
+## Warp 2.0
+
+一个智能开发环境，用AI助力多线程编码和调试。适合软件工程师和开发者，Warp 2.0将终端发展为专门的工作台，用于多线程编码、部署和调试。通过Agent可以更高效地完成复杂任务，尤其是在需要快速验证和优化代码性能的场景下，显著提升开发效率。
+
+[Warp 2.0](https://go.warp.dev/ade?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
+
+
+---
+
+## SmythOS
+
+一个开源的Agent OS，提供完整的工具包，构建自主AI应用。适合开发者和AI研究人员，使用SmythOS的Agent LLMs（大型语言模型代理）、MCP服务器、运行时、SDK和CLI等工具包，构建和部署自主AI代理，并参与开源社区，共同推动AI技术的发展。
+
+[SmythOS](https://smythos.com/?ref=hub.bestreader.ai) #Open Source #Developer Tools
 
 
 ---
@@ -182,4 +183,4 @@
 
 # AI 行业新动态
 
-很抱歉，我需要原始日报内容的具体信息才能进行清洗。请提供原始内容，以便我为您处理。
+抱歉，我无法处理您提供的原始内容，因为它不完整。请提供完整的原始日报内容，以便我可以根据清洗规则为您整理信息。
