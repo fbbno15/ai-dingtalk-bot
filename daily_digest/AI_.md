@@ -186,71 +186,37 @@ AI编码助手记忆层，自提升最佳实践。适合AI编码Agent开发者�
 ```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 7 条资讯
+今天共 5 条资讯
 
 ### 💡AI工具新动态
 
-## 字节跳动EX-4D震撼开源:单目视频秒变自由视角4D大片
+## 微信支付MCP上线:AI与支付的完美结合，开启商业新纪元
 
-· EX-4D利用深度密闭网格（DW-Mesh）实现单目视频到多视角的高质量生成。  
-· 通过渲染mask和跟踪mask策略，解决多视角数据稀缺问题。  
-· 在FID、FVD和VBench等指标上全面超越现有开源方法，性能表现卓越。  
-[详情链接](https://github.com/tau-yihouxiang/EX-4D)  
+· MCP功能为AI应用提供了新的盈利渠道，用户可直接通过支付完成服务获取。  
+· MCP构建了数据闭环，使商家能实时调整服务内容和价格以优化ROI。  
+· 交易数据成为AI优化服务的来源，提升用户生命周期价值并创造更多盈利机会。  
+[详情链接](https://yuanqi.tencent.com/mcp-shop)  
 
-## Bilibili开源动漫视频生成模型AniSora V3版，一键生成多种风格动漫视频镜头
+## 开源 DeepSeek R1增强版:推理效率提升200%，降低成本
 
-· AniSora V3通过时空掩码模块优化，增强了动画任务的控制能力。  
-· 支持多任务处理，包括单帧图像生成视频、关键帧插值和唇部同步等功能。  
-· 开源生态推动社区协作，开发者可通过GitHub获取代码和数据集。  
-[详情链接](https://t.co/I3HPKPvsBV)  
+· AoE架构通过优化MoE模型，提升推理性能并节省token输出。  
+· Chimera版本在MTBench和AIME-2024测试中表现优于普通R1版本。  
+· 权重合并与优化技术显著降低模型复杂性和计算成本。  
+[详情链接](https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera)  
 
-## DeepSWE 开源 AI Agent系统强势登顶，基于 Qwen3-32B
+## 昆仑万维再次开源奖励模型Skywork-Reward-V2
 
-· DeepSWE 是基于 Qwen3-32B 模型，完全通过强化学习训练而成，开源信息已全面发布。  
-· 在 SWE-Bench-Verified 测试中，DeepSWE 表现出色，Pass@1准确率达到了59%，成为所有开源代理中的佼佼者。  
-· 采用了 rLLM 框架和改进的 GRPO++ 算法，DeepSWE 在实际软件工程任务中展现了其强大的学习能力和应用潜力。  
-[详情链接](https://huggingface.co/agentica-org/DeepSWE-Preview)  
+· Skywork-Reward-V2系列包含8个模型，参数从6亿到80亿不等，全面超越当前水平。  
+· 构建了4000万对偏好对比的数据集，采用人机协同两阶段流程提升数据质量。  
+· 在多个评估基准上表现优异，尤其在通用偏好、正确性及高级能力测试中领先。  
+[详情链接](https://huggingface.co/collections/Skywork/skywork-reward-v2-685cc86ce5d9c9e4be500c84)  
 
-## 字节跳动开源新模型VINCIE-3B:3亿参数，支持上下文连续图像编辑
+## 开源革命!Kyutai TTS发布:超低延迟语音合成，AI语音新纪元来袭!
 
-· 视频驱动训练:VINCIE-3B利用视频的连续帧，自动提取文本描述与图像序列，构建多模态训练数据。  
-· 块因果扩散变换器:模型采用块因果注意力机制，在文本和图像块之间实现因果注意力，块内则为双向注意力。  
-· 三重代理任务训练:通过下一帧预测、当前帧分割预测和下一帧分割预测三种任务进行训练，增强模型对动态场景和物体关系的理解能力。  
-[详情链接](https://huggingface.co/ByteDance-Seed/VINCIE-3B)  
+· Kyutai TTS支持文本流式传输，延迟低至350毫秒，显著提升实时语音交互体验。  
+· 语音生成精准度高，英语和法语的词错误率分别低至2.82和3.29，同时支持单词时间戳输出。  
+· 开源模式允许自由使用、修改和分发，推动全球AI社区创新与技术进步。  
+[详情链接](https://kyutai.org/next/tts)  
 
-## Stability AI开源Stable Audio Open Small，手机秒变音频创作神器
-
-· 轻量化设计:参数量压缩至341M，适合移动端运行。  
-· 高质量音频生成:支持立体声音频生成，无需云端处理。  
-· 开源赋能开发者:遵循社区许可，降低技术门槛，鼓励创意应用。  
-[详情链接](https://huggingface.co/stabilityai/stable-audio-open-small)  
-
-## Topview Avatar2震撼发布!AI数字人革新电商带货，模特时代终结?
-
-· 全球首创AI数字人“穿戴”产品，实现更真实的交互效果。  
-· 一键生成定制化视频，支持多语言口型同步，提升营销灵活性。  
-· 革新传统UGC视频模式，降低电商拍摄门槛，助力品牌全球化.   
-[详情链接](https://www.topview.ai/ai-product-avatar)  
-
-👉🏻AI 世界瞬息万变，在评论区留下观点或投稿你关注的前沿链接，让更多人看到你的视角！
+👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
 ```
-
----
-
-## Shortcut 是一个专为 Excel 工作自动化设计的 AI 工具平台
-
-· 允许用户用自然语言指令完成 Excel 操作，提升效率  
-· 支持数据计算、透视表、图表制作等多种功能  
-· 能在短时间内完成复杂数据分析和处理任务  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/shortcut-excel-excel)  
-#AI资讯 #产品动态
-
----
-
-## Google 推出面向学生和教育工作者的新 Gemini 工具：Gemini for Education
-
-· 基于最新的 Gemini 2.5 Pro 模型，专注教育领域  
-· 提供超过 30 种 AI 教学工具，支持 40+ 种语言  
-· 免费使用，需配合 Google Workspace for Education  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/google-gemini-gemini-for-education)  
-#AI资讯 #产品动态
