@@ -206,7 +206,7 @@ AI编码助手记忆层，自提升最佳实践。适合AI编码Agent开发者�
 
 ## 昆仑万维再次开源奖励模型Skywork-Reward-V2
 
-· Skywork-Reward-V2系列包含8个模型，参数从6亿到80亿不等，全面超越当前水平。  
+· Skywork-Reward-V2系列包含8个模型，参数从6亿到80亿不等，全面超越当前最优水平。  
 · 构建了4000万对偏好对比的数据集，采用人机协同两阶段流程提升数据质量。  
 · 在多个评估基准上表现优异，尤其在通用偏好、正确性及高级能力测试中领先。  
 [详情链接](https://huggingface.co/collections/Skywork/skywork-reward-v2-685cc86ce5d9c9e4be500c84)  
