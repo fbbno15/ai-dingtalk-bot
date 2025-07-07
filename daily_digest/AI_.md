@@ -1,181 +1,181 @@
 # AI 产品新发现
 
-## How does it work?
+## Skala
 
-一个AI人脉管理工具，整合多平台信息，研究在线活动。适合需要维护人脉的专业人士，整合iMessage、WhatsApp、LinkedIn、Google、Email、Calendar和X等多个社交平台的信息，通过AI分析联系人的在线活动，帮助用户更好地了解人脉，从而更有效地管理人际关系。
+一站式法律平台，助力全球创业公司合规运营。适合创业者和个体经营者，在全球范围内（美国、阿联酋、巴拿马、英属维尔京群岛）进行公司注册、融资、商标注册和管理，生成和电子签署法律文件。通过24/7 AI助手，简化创业和扩展流程。
 
-[How does it work?](https://pally.com/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
-
-
----
-
-## mysite.ai
-
-一个AI建站工具，无需编码快速搭建网站并获取潜在客户。适合需要快速搭建网站的企业和个人，无需模板和拖拽，只需回答几个问题，Mysite.ai就能在2分钟内生成网站、撰写内容并获取潜在客户。特别适合不熟悉编程的用户，可以免费试用，无需注册。
-
-[mysite.ai](https://mysite.ai/?utm_source=producthunt&utm_medium=organic&utm_campaign=ph-launch-june25&ref=hub.bestreader.ai) #Advertising #Artificial Intelligence
+[Skala](https://skala.io/?ref=hub.bestreader.ai) #SaaS #Legal
 
 
 ---
 
-## Pythagora 2.0
+## Tabl 1.0
 
-一个AI开发平台，从规划到部署，一站式服务。适合开发者和创业者，Pythagora提供从规划到部署的完整AI开发流程，可以构建完整的全栈应用程序，并部署到任何地方。它超越了简单的代码生成，涵盖了软件开发的各个方面，帮助用户快速构建和部署可供真实用户使用的AI应用。
+一个协作式浏览器，为任何应用带来Figma般的体验。适合需要远程协作的团队，在任何网页应用上实现类似Figma的协同体验，适用于远程会议、项目协作等场景，提高团队协作效率和沟通质量，尤其适合高强度工作。
 
-[Pythagora 2.0](https://www.pythagora.ai/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
-
-
----
-
-## FlashDocs API
-
-一个AI驱动的API，定制PPT和Google幻灯片。适合需要批量生成演示文稿的用户，FlashDocs 允许你通过一个API调用，从你的产品中生成Google Slides和PowerPoint演示文稿。支持Markdown、图表、图片、表格、合并标签和品牌主题等元素。
-
-[FlashDocs API](https://flashdocs.com/?ref=hub.bestreader.ai) #API #Developer Tools
+[Tabl 1.0](https://tablbrowser.com/?ref=hub.bestreader.ai) #Productivity #Meetings
 
 
 ---
 
-## HeyBoss AI Boss Mode
+## Cursor Agents: Browsers & Mobile
 
-一个AI驱动的建站工具，帮你全方位管理业务。适合创业者或小型企业主，通过AI团队（CEO、设计师、开发者、营销员和文案撰写人）在几分钟内创建品牌、编写文案、设计和构建网站，并提供全天候的托管、监控和业务增长服务，简化了建站和业务运营的流程。
+一个全平台的AI编程助手，随时随地编写代码。适合软件工程师和开发者，在各种场景下（如Web端、移动端）随时随地使用AI助手编写代码、解答复杂问题和搭建项目框架，与IDE（集成开发环境）中的体验一致，提高编码效率和便捷性。
 
-[HeyBoss AI Boss Mode](https://heybossai.com/?ref=hub.bestreader.ai) #Marketing #Website Builder
-
-
----
-
-## Ops AI by Middleware
-
-一个可观测性AI副驾驶，即时解决生产问题。适合运维工程师和开发团队，Ops AI 是一个可观测性协同工具，用于检测生产环境中的问题，包括APM（应用性能管理）追踪、RUM（真实用户监控）和日志，一键修复问题并在GitHub中生成pull request。
-
-[Ops AI by Middleware](https://middleware.io/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
+[Cursor Agents: Browsers & Mobile](https://cursor.com/?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
 
 
 ---
 
-## NativeMind
+## todai
 
-一个完全私有的AI助手，基于本地运行的开源模型。适合注重数据隐私的用户，NativeMind 让你在浏览器中使用最新的AI模型，如Deepseek、Qwen和LLaMA，全部在本地运行，无需担心数据泄露，快速且安全。
+一个AI健康助手，个性化追踪情绪，平衡身心。适合关注心理健康的用户，通过记录心情，todai可以帮助你发现情绪模式，随时随地使用科学工具，获得心理上的平静和情绪平衡，提升生活幸福感。
 
-[NativeMind](https://nativemind.app/?utm_source=producthunt&ref=hub.bestreader.ai) #Chrome Extensions #Open Source
-
-
----
-
-## Runbear
-
-一个AI团队助手，通过Slack聊天学习，无需代码。适合需要提高团队效率的企业，在Slack中直接与Runbear AI队友互动，无需编写代码或设计流程图。Runbear可以学习团队的工作方式，承担诸如回答问题、查找信息、生成报告和安排会议等任务，从而释放团队成员的时间，专注于更重要的工作。
-
-[Runbear](https://runbear.io/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
+[todai](https://apps.apple.com/us/app/todai-your-ai-self-guide/id6742847773?ref=hub.bestreader.ai) #Health & Fitness #Artificial Intelligence
 
 
 ---
 
-## Dyad: AI app builder without lock-in!
+## Portia AI
 
-一个本地AI应用构建工具，开源免费，灵活无限制。适合开发者和编程爱好者，作为v0、Lovable和Bolt的替代方案，Dyad 允许用户使用任何AI模型（包括免费的 Gemini 和 OpenRouter），构建应用，避免了厂商锁定和功能限制。可在 Windows 和 Mac 上免费下载使用。
+一个安全AI Agent开发框架，集成工具和认证，便于控制。适合开发者，Portia AI提供生产级别的AI Agent解决方案，具备即插即用的工具集成、声明式规划和统一的认证框架。用户可以快速部署安全可靠的AI Agent，用于API和Web应用，并实现全面的人工监督和控制。
 
-[Dyad: AI app builder without lock-in!](https://dyad.sh/?ref=hub.bestreader.ai) #Open Source #Website Builder
-
-
----
-
-## Byterover
-
-AI编码助手记忆层，自提升最佳实践。适合AI编码Agent开发者，通过安装Byterover扩展到AI IDE（如Cursor、Windsurf），跨项目和团队创建、检索和管理代码规范，提升AI编码效率和代码质量。
-
-[Byterover](https://byterover.dev/?ref=hub.bestreader.ai) #Productivity #Developer Tools
+[Portia AI](https://www.portialabs.ai/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## Read & Give by Bono
+## String.com
 
-一个Chrome插件，阅读新闻的同时进行慈善捐赠。适合关注社会议题的用户，在浏览新闻时，通过AI分析新闻内容，推荐相关的可信赖的慈善机构，一键捐款并获得每周影响报告和统一的退税收据。让你在获取信息的同时，也能为社会做出贡献。
+一个AI Agent平台，快速prompt、运行、编辑和部署AI Agent。适合开发者和企业，String.com 提供了一个快速构建和部署AI Agent的平台，无需复杂的设置，即可在几秒钟内部署AI Agent，简化了AI应用开发流程，加速AI解决方案的落地。
 
-[Read & Give by Bono](https://chromewebstore.google.com/detail/read-give/imhpjclknehbmpfmebnipdfcilhadflp?ref=hub.bestreader.ai) #Chrome Extensions #Fintech
-
-
----
-
-## Clarify
-
-一个AI驱动的CRM，帮助销售人员提高销售额。适合创始人或早期销售人员，Clarify是一款自主运行的CRM，帮助用户拓展销售渠道，达成更多交易，并减少在CRM上花费的时间。通过AI技术，Clarify可以自动化处理CRM的繁琐工作，让销售人员专注于更重要的销售活动，从而提高销售效率和业绩。
-
-[Clarify](https://clarify.ai/?utm_source=product_hunt&utm_medium=referral&utm_campaign=launch&ref=hub.bestreader.ai) #Sales #Artificial Intelligence
+[String.com](https://string.com/?ref=hub.bestreader.ai) #SaaS #Artificial Intelligence
 
 
 ---
 
-## MyLens.ai
+## The smarter, simpler way to analyze your data
 
-一个AI内容可视化工具，将想法转化为互动视觉效果。适合学生、教师、内容创作者和研究人员，在学习、教学、内容创作或演示场景中，快速将文本、PDF、图像、网页或YouTube视频等多种来源的内容转化为清晰、可编辑的互动视觉图，突出重点，方便用户更好地理解和展示信息。
+一个数据分析工具，更智能便捷地分析数据。适合需要数据分析的专业人士，帮助用户更智能、更简单地分析数据，优化决策流程。适用于各种数据分析场景，例如市场分析、用户行为分析等。通过可视化数据，用户可以快速发现数据中的模式和趋势，从而做出更明智的商业决策。
 
-[MyLens.ai](https://mylens.ai/?ref=hub.bestreader.ai) #Education #Artificial Intelligence
-
-
----
-
-## Cekura
-
-一个AI语音和聊天代理的QA工具，加速产品发布。适合对话式AI公司，Cekura提供端到端的质量保证，用于语音和聊天AI代理的预生产测试和模拟，以及生产环境的监控，确保在每个开发阶段的质量和可靠性。帮助企业更快地发布高质量的AI语音和聊天应用。
-
-[Cekura](https://www.cekura.ai/?ref=hub.bestreader.ai) #SaaS #Developer Tools
+[The smarter, simpler way to analyze your data](https://www.hurree.co/product-hunt?ref=hub.bestreader.ai) #Web App #Analytics
 
 
 ---
 
-## Optibot
+## Lazy 2.0 The fastest capture experience
 
-一个AI代码审查工具，保障代码安全。适合软件开发团队，Optibot 是一款AI代码审查工具，可以进行代码审查和维护。它集成在GitHub中，可以评审PR（Pull Request），修复CI（持续集成）问题，并长期保持代码的清洁。由Optimal AI构建，帮助开发团队提高代码质量和开发效率。
+一个AI笔记工具，快速捕捉想法，并AI智能连接笔记。适合需要快速记录和整理想法的用户，Lazy 2.0 允许用户随时随地捕捉灵感，并利用AI技术理解上下文，关联不同笔记之间的信息。用户可以通过快捷键在桌面端快速访问和管理个人知识库。
 
-[Optibot](https://getoptimal.ai/?ref=hub.bestreader.ai) #Productivity #Developer Tools
-
-
----
-
-## DeskMinder²
-
-一个macOS桌面提醒工具，一键创建，效率提升。适合容易分心的 macOS 用户，尤其是有注意力缺陷多动障碍（ADHD）的人群，通过醒目的桌面提醒和任务管理，帮助他们快速创建和管理任务，提高工作效率和时间管理能力。
-
-[DeskMinder²](https://appps.od.ua/deskminder?ref=hub.bestreader.ai) #Productivity #Task Management
+[Lazy 2.0 The fastest capture experience](http://www.lazy.so/?ref=hub.bestreader.ai) #Productivity #Notes
 
 
 ---
 
-## Rumora
+## PromptForge
 
-一个YouTube营销工具，在评论区自动触达目标用户。适合创业公司和营销人员，Rumora.ai 能够找到你所在领域的热门内容，并在评论中自然地提及你的产品或服务，提高网站访问量和转化率，提供7天无风险试用。
+一个AI提示词工程工作台，系统评估prompt。适合AI开发者和研究人员，用于创建、测试和评估AI模型的提示词（prompt），提供强大的分析工具，帮助优化prompt效果，提升AI应用性能。特别适用于需要系统性prompt评估的场景，可以高效管理和改进prompt设计。
 
-[Rumora](https://rumora.ai/?ref=hub.bestreader.ai) #Marketing #Growth Hacking
-
-
----
-
-## MoodGallery: Emotions to art
-
-一个情绪转艺术的APP，用AI将心情变成个性化作品。适合关注个人情绪和心理健康的用户，通过每日记录心情，将情绪转化为独特的AI艺术作品。随着情绪的变化，你的画廊也会不断成长，形成一个视觉化的内心日记。你还可以邀请朋友来探索你的情感展览，通过艺术体验你的故事。
-
-[MoodGallery: Emotions to art](https://moodgallery.app/?ref=hub.bestreader.ai) #iOS #Health & Fitness
+[PromptForge](https://github.com/insaanimanav/prompt-forge?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## Warp 2.0
+## Rybbit
 
-一个智能开发环境，用AI助力多线程编码和调试。适合软件工程师和开发者，Warp 2.0将终端发展为专门的工作台，用于多线程编码、部署和调试。通过Agent可以更高效地完成复杂任务，尤其是在需要快速验证和优化代码性能的场景下，显著提升开发效率。
+一个开源分析工具，轻量且注重隐私。适合注重用户隐私的网站和产品开发者，使用Rybbit进行Web和产品数据分析，它是一款开源、轻量级、无Cookie的分析工具，可以替代Google Analytics，帮助用户在保护隐私的前提下进行数据分析。
 
-[Warp 2.0](https://go.warp.dev/ade?ref=hub.bestreader.ai) #Software Engineering #Developer Tools
+[Rybbit](https://rybbit.io/?ref=hub.bestreader.ai) #Open Source #Analytics
 
 
 ---
 
-## BestPage.ai
+## Dynamic Mockups
 
-一个AI驱动的页面生成器，快速创建SEO优化对比页面。适合市场营销人员和SEO从业者，快速批量创建“最佳”清单类文章，这类文章能优化搜索引擎排名。BestPage.ai利用AI技术，在几分钟内生成SEO优化页面，内容自动更新，包含结构化数据标记和GEO转化优化，提升网站流量和转化率。
+一个模型生成工具，规模化创建逼真产品模型。适合电商卖家和设计师，通过API和集成，使用自己的Photoshop模板自动生成产品模型，用于电商产品展示，提高产品视觉吸引力，提升销量。
 
-[BestPage.ai](https://www.bestpage.ai/?ref=hub.bestreader.ai) #Productivity #Marketing
+[Dynamic Mockups](https://dynamicmockups.com/?ref=hub.bestreader.ai) #Design Tools #API
+
+
+---
+
+## Pokecut
+
+一个AI图片编辑器，功能全面，操作简单。适合设计师和内容创作者，利用AI技术进行抠图、替换背景、图片修复等操作，适用于电商产品图、社交媒体素材等场景，通过自由的画布和AI工具，提升创作效率和作品质量。
+
+[Pokecut](https://www.pokecut.com/?ref=hub.bestreader.ai) #Web App #Design Tools
+
+
+---
+
+## Buildrs
+
+一个创意编程人士社区，连接有激情的开发者。适合寻找合作伙伴的开发者，这是一个连接有共同爱好的开发者平台，帮助开发者找到有激情的伙伴，一起构建令人惊叹的项目，创造未来。适用于需要组建团队或寻找灵感的场景，可以在这里找到志同道合的“vibe coders”。
+
+[Buildrs](https://buildrs.space/?ref=hub.bestreader.ai) #Hiring #Developer Tools
+
+
+---
+
+## FastMoss.com
+
+一个TikTok数据分析平台，助力品牌和创作者增长。适合TikTok品牌方和内容创作者，在快速变化的社交电商环境中，提供数据分析，赋能用户，帮助他们制定更有效的营销策略，实现商业成功。作为一个TikTok数据分析平台，提供可操作的洞察，助力在社交电商的动态世界中取得成功。
+
+[FastMoss.com](https://www.fastmoss.com/?ref=hub.bestreader.ai) #SaaS #Data & Analytics
+
+
+---
+
+## Icons8 MCP Server
+
+一个海量图标库，为AI代码项目提供丰富素材。适合开发者和设计师，将 Icons8 MCP 连接到 Claude Code、Cursor 或 Windsurf，获得多达 40K 的海量图标包，用于代码项目中的视觉设计。通过AI指令控制图标风格，例如调整颜色或添加特定类型的图标，有免费 PNG 版本和 $15 美元的 SVG 版本。
+
+[Icons8 MCP Server](https://icons8.com/?ref=hub.bestreader.ai) #Design Tools #Icons
+
+
+---
+
+## Jotform Presentation Agents
+
+一个AI演示文稿工具，能说、能听、能答。适合市场营销和教育培训人员，通过简单的提示词或上传PPT/PDF，自动生成带有语音讲解的AI演示文稿，并能实时回答观众提问，适用于产品演示、在线培训、员工培训等场景，实现演示自动化。
+
+[Jotform Presentation Agents](http://www.jotform.com/?utm_source=producthunt&utm_campaign=product-listing&ref=hub.bestreader.ai) #Productivity #Marketing
+
+
+---
+
+## Picsart Ignite 2.0: AI for Creators
+
+一个AI创作平台，快速生成品牌素材、广告等。适合设计师、市场营销人员和内容创作者，利用AI模型快速生成品牌素材、广告、视频、字体等，适用于各种创意设计场景，旨在减少时间和成本，降低对团队的依赖。
+
+[Picsart Ignite 2.0: AI for Creators](https://picsart.com/ignite?ref=hub.bestreader.ai) #Design Tools #Marketing
+
+
+---
+
+## AI Mindmap Extension
+
+一个思维导图工具，一键转化网页和视频。适合学生、研究人员和知识工作者，可以将网页、PDF、YouTube视频和AI聊天内容一键转化为清晰的思维导图，帮助用户增强学习效果、提取关键见解和组织信息。该产品与FunBlocks AIFlow集成，可进行更深入的探索和AI驱动的头脑风暴。适用于需要快速整理和理解信息的场景。
+
+[AI Mindmap Extension](https://funblocks.net/aiflow.html?ref=hub.bestreader.ai) #Browser Extensions #Productivity
+
+
+---
+
+## Prit
+
+一款旅行计划设计工具，让旅行计划变成艺术品。适合旅行爱好者，将旅行计划通过拖拽编辑变成精美设计，方便与朋友分享。Prit提供精美的界面设计和便捷的分享功能，让用户可以轻松规划和分享个性化旅行体验。
+
+[Prit](https://prit.travel/?ref=hub.bestreader.ai) #Design Tools #Travel
+
+
+---
+
+## Agnes AI
+
+一个AI协作助手，支持实时共同编辑，提升团队效率。适合团队协作场景，Agnes AI作为对话型AI助手，提供实时协同编辑、共享记忆和团队工作流程功能。团队可以共同创建演示文稿、报告或战略文档，实现协同思考、写作和创作，提高团队协作效率。
+
+[Agnes AI](https://agnes-ai.com/?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
 
 
 ---
@@ -183,38 +183,38 @@ AI编码助手记忆层，自提升最佳实践。适合AI编码Agent开发者�
 
 # AI 行业新动态
 
+```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 6 条资讯
+今天共 4 条资讯
 
 ### 💡AI工具新动态
 
-## 微信支付MCP上线:AI与支付的完美结合，开启商业新纪元
+## 智元发布“哪吒机器人灵犀X2-N”:可轮足双形态切换
 
-· MCP功能为AI应用提供了新的盈利渠道，用户可直接通过支付完成服务获取。  
-· MCP构建了数据闭环，使商家能实时调整服务内容和价格以优化ROI。  
-· 交易数据成为AI优化服务的来源，提升用户生命周期价值并创造更多盈利机会。  
-[详情链接](https://yuanqi.tencent.com/mcp-shop)  
+· 双形态设计，轮式与足式自由切换，适应多种场景和复杂地形。  
+· 足式状态下具备卓越的越障能力，可盲走上台阶并携带重物稳健前行。  
+· 轮式形态下实现高效移动，具备“边走边滑”特性，应对复杂地形如单边桥、斜坡等轻松自如。  
 
-## 开源 DeepSeek R1增强版:推理效率提升200%，降低成本
+## 开源多模态大模型 EarthMind:革新地球观测数据分析的利器
 
-· AoE架构通过优化MoE模型，提升推理性能并节省token输出。  
-· Chimera版本在MTBench和AIME-2024测试中表现优于普通R1版本。  
-· 权重合并与优化技术显著降低模型复杂性和计算成本。  
-[详情链接](https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera)  
+· 引入空间注意力提示（SAP）模块，提升像素级理解的精准度。  
+· 通过跨模态融合和多粒度理解，EarthMind 实现了不同传感器数据的有效整合与分析。  
+· EarthMind 是一个开源多模态大模型，专门处理复杂的地球观测数据。  
 
-## 昆仑万维再次开源奖励模型Skywork-Reward-V2
+## Gemini CLI重磅更新!音视频处理+隐私新功能，开发者福音来了!
 
-· Skywork-Reward-V2系列包含8个模型，参数从6亿到80亿不等，全面超越当前水平。  
-· 构建了4000万对偏好对比的数据集，采用人机协同两阶段流程提升数据质量。  
-· 在多个评估基准上表现优异，尤其在通用偏好、正确性及高级能力测试中领先。  
-[详情链接](https://huggingface.co/collections/Skywork/skywork-reward-v2-685cc86ce5d9c9e4be500c84)  
+· 音视频处理能力新增，扩展工具应用场景  
+· 隐私保护功能强化，用户数据控制更透明  
+· 兼容性优化，支持更多编辑器和跨平台使用  
+[详情链接](https://github.com/google-gemini/gemini-cli)  
 
-## 开源革命!Kyutai TTS发布:超低延迟语音合成，AI语音新纪元来袭!
+## 隐形AI桌面助手Glass:开源即爆，智能记录生活点滴
 
-· Kyutai TTS支持文本流式传输，延迟低至350毫秒，显著提升实时语音交互体验。  
-· 语音生成精准度高，英语和法语的词错误率分别低至2.82和3.29，同时支持单词时间戳输出。  
-· 开源模式允许自由使用、修改和分发，推动全球AI社区创新与技术进步。  
-[详情链接](https://kyutai.org/next/tts)  
+· Glass是一款轻量、快速的桌面工具，专为macOS设计，实时捕捉屏幕活动和音频。  
+· 具备强大的上下文理解能力，能将零散信息整理为实用知识库。  
+· 采用‘隐形设计’，不干扰用户隐私和操作流畅性。  
+[详情链接](https://github.com/pickle-com/glass)  
 
 👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
+```
