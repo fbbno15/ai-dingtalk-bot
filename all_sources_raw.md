@@ -183,46 +183,53 @@
 
 # AI 行业新动态
 
-```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 5 条资讯
+今天共 7 条资讯
 
 ### 💡AI工具新动态
 
-## 腾讯混元推出业界首个美术级3D生成大模型Hunyuan3D-PolyGen
+## 阿里通义开源支持链式推理的音频生成模型ThinkSound
 
-· 实现上万面复杂几何模型的精准生成，提升建模效率超70%。
-· 采用‘网格序列化-自回归建模-序列解码’三步框架，压缩单个面的表征Token数量74%。
-· 引入强化学习训练框架，提升模型生成优质结果的概率40%以上。
-体验网址:3d.hunyuan.tencent.com  
+· ThinkSound首次将多模态大语言模型与统一音频生成架构结合，实现精准音频合成。  
+· 研究团队构建了包含2531.8小时高质量样本的AudioCoT数据集，提升模型处理复杂指令的能力。  
+· ThinkSound在多个测试集中表现优于主流方法，代码和预训练权重已开源，开发者可免费获取。  
+[详情链接](https://github.com/FunAudioLLM/ThinkSound) [详情链接](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) [详情链接](https://www.modelscope.cn/studios/iic/ThinkSound)
 
-## 阿里HumanOmniV2震撼发布:多模态AI新王者，准确率飙升至69.33%
+## 谷歌Veo3重磅升级，支持静态图片生成生动视频
 
-· HumanOmniV2引入强制性上下文总结机制，提升多模态推理能力。
-· 在Daily-Omni、WorldSense和IntentBench等数据集上表现优异，准确率分别达到58.47%、47.1%和69.33%。
-· 支持多种语言输入，增强国际化适用性，推动AI在教育、医疗、金融等领域的应用。
-详情链接:https://github.com/HumanMLLM/HumanOmniV2  
+· Veo3升级后支持从单张静态图片生成高质量动态视频。  
+· 支持运镜功能，如推镜头（Dolly in），提升视频专业性。  
+· 用户可选择不同质量模型，但需消耗相应 credits 资源。
 
-## 钉钉AI表格重磅来袭:1小时处理1000个任务，零门槛搞定数据分析
+## Hugging Face发布新一代小参数模型 SmolLM3:128K上下文，双模式推理
 
-· 智能字段处理:内置80多种字段模板，支持智能提取、分类和匹配信息。
-· 零门槛数据分析:自然语言描述需求，AI自动生成计算公式和图表。
-· 自动化流程创建:设定触发条件与执行动作，实现全天候智能协作。  
+· SmolLM3拥有30亿参数，性能超越同类开源模型，支持多语言处理。  
+· 提供深度思考和非思考两种推理模式，灵活应对不同需求。  
+· 采用先进的transformer解码器架构，通过三阶段混合训练提升能力。  
+[详情链接](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base)
 
-## PP-OCRv5多语种模型支持37种语言
+## 阿里开源 WebSailor，具备强大的推理和检索能力
 
-· PP-OCRv5多语种模型支持37种语言，提升识别准确率超30%。
-· PP-DocTranslation翻译产线可处理复杂文档并实现专业术语精准翻译。
-· MCP服务器功能简化AI应用开发流程，支持标准化协议接入。
-详情链接:https://github.com/PaddlePaddle/PaddleOCR  
+· 阿里通义开源 WebSailor，展现出色的推理与检索能力。  
+[详情链接](https://github.com/Alibaba-NLP/WebAgent)
 
-## 微软推出 Deep Research:自动化研究助力科研和商业分析
+## Moonvalley发布Marey Realism v1.5:原生1080P AI视频模型，零版权风险引领行业新风向!
 
-· Deep Research 自动化研究流程，显著提升科研和分析效率。
-· 支持多领域应用，金融和医疗报告生成同样适用。
-· API 现已开放，开发者可将其能力集成到自有应用中。
-详情链接:https://customervoice.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR7en2Ais5pxKtso_Pz4b1_xUQ1VGQUEzRlBIMVU2UFlHSFpSNkpOR0paRSQlQCN0PWcu  
+· 原生1080P视频生成能力，提供接近真实拍摄的视觉体验。  
+· 100%授权数据训练，彻底规避版权风险。  
+· 支持文本到视频和图像到视频生成，提升创作灵活性。
+
+## Vidu Q1震撼升级:参考转视频支持最多七张图像，AI视频生成再创新高
+
+· 支持最多七张参考图像，提升视频创作灵活性  
+· 语义融合技术确保多图像元素在视频中保持高度一致  
+· 多主体一致性技术实现复杂场景的连贯视觉体验
+
+## 昆仑万维重磅发布 Skywork-R1V3.0:跨模态推理能力直逼人类专家!
+
+· Skywork-R1V3.0在跨模态推理中取得76.0分，超越多款闭源模型。  
+· 该模型使用1.2万条微调样本和1.3万条强化学习样本进行训练。  
+· 在物理、逻辑和数学推理测试中表现优异，分别获得52.8分、59.7分和77.1分。
 
 👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
-```
