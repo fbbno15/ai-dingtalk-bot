@@ -185,51 +185,55 @@
 
 # YYYY-MM-DD AI资讯日报
 
-今天共 7 条资讯
+今天共 4 条资讯
 
 ### 💡AI工具新动态
 
-## 阿里通义开源支持链式推理的音频生成模型ThinkSound
+## xAI 震撼发布Grok4，超强推理+代码神器Grok4Code
 
-· ThinkSound首次将多模态大语言模型与统一音频生成架构结合，实现精准音频合成。  
-· 研究团队构建了包含2531.8小时高质量样本的AudioCoT数据集，提升模型处理复杂指令的能力。  
-· ThinkSound在多个测试集中表现优于主流方法，代码和预训练权重已开源，开发者可免费获取。  
-[详情链接](https://github.com/FunAudioLLM/ThinkSound) [详情链接](https://huggingface.co/spaces/FunAudioLLM/ThinkSound) [详情链接](https://www.modelscope.cn/studios/iic/ThinkSound)
+· Grok4在数学、逻辑推理和代码生成方面表现出色，部分指标超越现有顶级模型。  
+· Grok4分为通用模型和Grok4Code版本，满足不同用户需求，尤其是开发者。  
+· Grok4通过X平台的实时数据提供最新动态响应，但信息准确性引发争议。  
 
-## 谷歌Veo3重磅升级，支持静态图片生成生动视频
+## 微软全新 Phi-4-mini 版发布:推理效率提升10倍，轻松适配笔记本
 
-· Veo3升级后支持从单张静态图片生成高质量动态视频。  
-· 支持运镜功能，如推镜头（Dolly in），提升视频专业性。  
-· 用户可选择不同质量模型，但需消耗相应 credits 资源。
+· 微软推出Phi-4-mini-flash-reasoning，推理效率提升10倍，适合笔记本运行。  
+· 创新SambaY架构通过高效记忆共享提升解码性能，适合长文本生成与数学推理。  
+· 在基准测试中表现优异，Phonebook任务准确率达78.13%，显示出强大的长上下文理解能力。  
+[详情链接](https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning)  
 
-## Hugging Face发布新一代小参数模型 SmolLM3:128K上下文，双模式推理
+## Perplexity AI推出Comet浏览器，挑战谷歌Chrome市场地位
 
-· SmolLM3拥有30亿参数，性能超越同类开源模型，支持多语言处理。  
-· 提供深度思考和非思考两种推理模式，灵活应对不同需求。  
-· 采用先进的transformer解码器架构，通过三阶段混合训练提升能力。  
-[详情链接](https://huggingface.co/HuggingFaceTB/SmolLM3-3B-Base)
+· Comet浏览器由Perplexity AI推出，意在挑战谷歌Chrome的市场地位。  
+· Comet的AI助手可以自动识别用户浏览内容并回答相关问题，简化上网体验。  
+· Perplexity的估值在过去一年内大幅上升，表明其AI技术受到了广泛关注。  
+[详情链接](https://comet.perplexity.ai/)  
 
-## 阿里开源 WebSailor，具备强大的推理和检索能力
+## 谷歌医疗AI模型MedGemma系列上新，单个GPU即可运行
 
-· 阿里通义开源 WebSailor，展现出色的推理与检索能力。  
-[详情链接](https://github.com/Alibaba-NLP/WebAgent)
-
-## Moonvalley发布Marey Realism v1.5:原生1080P AI视频模型，零版权风险引领行业新风向!
-
-· 原生1080P视频生成能力，提供接近真实拍摄的视觉体验。  
-· 100%授权数据训练，彻底规避版权风险。  
-· 支持文本到视频和图像到视频生成，提升创作灵活性。
-
-## Vidu Q1震撼升级:参考转视频支持最多七张图像，AI视频生成再创新高
-
-· 支持最多七张参考图像，提升视频创作灵活性  
-· 语义融合技术确保多图像元素在视频中保持高度一致  
-· 多主体一致性技术实现复杂场景的连贯视觉体验
-
-## 昆仑万维重磅发布 Skywork-R1V3.0:跨模态推理能力直逼人类专家!
-
-· Skywork-R1V3.0在跨模态推理中取得76.0分，超越多款闭源模型。  
-· 该模型使用1.2万条微调样本和1.3万条强化学习样本进行训练。  
-· 在物理、逻辑和数学推理测试中表现优异，分别获得52.8分、59.7分和77.1分。
+· HAI-DEF推出MedGemma和MedSigLIP，为医疗AI研发提供强有力的支持。  
+· MedGemma适合生成自由文本任务，而MedSigLIP专注于图像分类与检索。  
+· 开放模型的灵活性使开发者能够在本地环境中安全地优化和微调模型。  
+[详情链接](https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/)  
 
 👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
+
+---
+
+## Perplexity 推出认知型浏览器 Comet
+
+· Comet 通过 AI 深度融入浏览体验，重构 Web 浏览概念  
+· 用户可在对话空间中提问、探索，获取关联信息或新任务  
+· 提供 Mac 和 Windows 版本，支持现有插件和书签导入  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/perplexity-ai-comet)  
+#AI资讯 #产品动态
+
+---
+
+## 埃隆·马斯克发布xAI最新语言模型Grok 4
+
+· Grok 4 被称为“世界上最聪明的AI”，在学术基准测试中表现优异  
+· 支持多模态能力，未来将加入图像、视频和音频处理功能  
+· 提供通用版和编程专版，强调实用性和专业化  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/xai-grok-4)  
+#AI资讯 #产品动态
