@@ -183,57 +183,47 @@
 
 # AI 行业新动态
 
+```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 4 条资讯
+今天共 6 条资讯
 
 ### 💡AI工具新动态
 
-## xAI 震撼发布Grok4，超强推理+代码神器Grok4Code
+## 智谱上线了类似Manus的PPT生成功能AI Slides，免费使用无限制
 
-· Grok4在数学、逻辑推理和代码生成方面表现出色，部分指标超越现有顶级模型。  
-· Grok4分为通用模型和Grok4Code版本，满足不同用户需求，尤其是开发者。  
-· Grok4通过X平台的实时数据提供最新动态响应，但信息准确性引发争议。  
+· AI Slides可根据主题或文档快速生成高质量PPT。  
+· 生成的PPT结构清晰，运用图表展示数据，便于理解。  
+· 用户可在chat.z.ai免费体验AI Slides功能。  
+[详情链接](https://chat.z.ai)  
 
-## 微软全新 Phi-4-mini 版发布:推理效率提升10倍，轻松适配笔记本
+## NVIDIA 推出 DiffusionRenderer:全新 AI 模型实现视频到可编辑的逼真3D 场景
 
-· 微软推出Phi-4-mini-flash-reasoning，推理效率提升10倍，适合笔记本运行。  
-· 创新SambaY架构通过高效记忆共享提升解码性能，适合长文本生成与数学推理。  
-· 在基准测试中表现优异，Phonebook任务准确率达78.13%，显示出强大的长上下文理解能力。  
-[详情链接](https://huggingface.co/microsoft/Phi-4-mini-flash-reasoning)  
+· DiffusionRenderer 结合生成与编辑功能，为3D场景创作带来新可能。  
+· 神经逆渲染器和神经前向渲染器协同提升视频真实感和适应性。  
+· 实际应用包括动态光照、材料编辑和对象插入，助力创作者轻松进行视频创作。  
+[详情链接](https://youtu.be/jvEdWKaPqkc)  
 
-## Perplexity AI推出Comet浏览器，挑战谷歌Chrome市场地位
+## 上传10张照片，AI秒变时尚大片!Higgsfield Soul ID火爆全球，颠覆你的数字自我
 
-· Comet浏览器由Perplexity AI推出，意在挑战谷歌Chrome的市场地位。  
-· Comet的AI助手可以自动识别用户浏览内容并回答相关问题，简化上网体验。  
-· Perplexity的估值在过去一年内大幅上升，表明其AI技术受到了广泛关注。  
-[详情链接](https://comet.perplexity.ai/)  
+· 个性化训练:用户只需上传10张以上照片即可生成专属AI角色。  
+· 多样化风格预设:内置60多种高级风格预设，一键切换多种视觉语言。  
+· 自动提示词优化:用户输入简单描述，AI即可自动优化生成条件，输出高质量图像。  
+[详情链接](https://higgsfield.ai/)  
 
-## 谷歌医疗AI模型MedGemma系列上新，单个GPU即可运行
+## 谷歌DeepMind开源GenAI Processors:一键构建实时AI工作流
 
-· HAI-DEF推出MedGemma和MedSigLIP，为医疗AI研发提供强有力的支持。  
-· MedGemma适合生成自由文本任务，而MedSigLIP专注于图像分类与检索。  
-· 开放模型的灵活性使开发者能够在本地环境中安全地优化和微调模型。  
-[详情链接](https://research.google/blog/medgemma-our-most-capable-open-models-for-health-ai-development/)  
+· GenAI Processors通过模块化设计简化复杂AI工作流的开发过程。  
+· 支持音频、视频和文本等多模态数据的异步流处理，提升实时应用效率。  
+· 开源社区协作将进一步扩展库的功能，覆盖更多场景和编程语言。  
+[详情链接](https://github.com/google-gemini/genai-processors)  
+
+## Mistral AI 发布 Devstral2507:为代码中心语言建模而生
+
+· Devstral2507系列包括开源的 Devstral Small1.1和企业版的 Devstral Medium2507，旨在提升代码推理与自动化能力。  
+· Devstral Small1.1在 SWE-Bench 基准测试中得分53.6%，而 Devstral Medium2507得分61.6%，后者表现优于一些商业模型。  
+· 两款模型支持与代码代理框架集成，适用于从本地开发到企业级服务的多种应用场景。  
+[详情链接](https://huggingface.co/mistralai/Devstral-Small-2507)  
 
 👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
-
----
-
-## Perplexity 推出认知型浏览器 Comet
-
-· Comet 通过 AI 深度融入浏览体验，重构 Web 浏览概念  
-· 用户可在对话空间中提问、探索，获取关联信息或新任务  
-· 提供 Mac 和 Windows 版本，支持现有插件和书签导入  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/perplexity-ai-comet)  
-#AI资讯 #产品动态
-
----
-
-## 埃隆·马斯克发布xAI最新语言模型Grok 4
-
-· Grok 4 被称为“世界上最聪明的AI”，在学术基准测试中表现优异  
-· 支持多模态能力，未来将加入图像、视频和音频处理功能  
-· 提供通用版和编程专版，强调实用性和专业化  
-[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/xai-grok-4)  
-#AI资讯 #产品动态
+```
