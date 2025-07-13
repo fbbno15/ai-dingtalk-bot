@@ -239,9 +239,19 @@
 ## Mistral AI 发布 Devstral2507:为代码中心语言建模而生
 
 · Devstral2507系列包括开源的 Devstral Small1.1和企业版的 Devstral Medium2507,旨在提升代码推理与自动化能力。
- · Devstral Small1.1在 SWE-Bench 基准测试中得分53.6%，而 Devstral Medium2507得分61.6%，后者表现优于一些商业模型。
- · 两款模型支持与代码代理框架集成,适用于从本地开发到企业级服务的多种应用场景。
- [详情链接](https://huggingface.co/mistralai/Devstral-Small-2507)
+· Devstral Small1.1在 SWE-Bench 基准测试中得分53.6%，而 Devstral Medium2507得分61.6%，后者表现优于一些商业模型。
+・ 两款模型支持与代码代理框架集成,适用于从本地开发到企业级服务的多种应用场景。
+[详情链接](https://huggingface.co/mistralai/Devstral-Small-2507)
 
 👉🏻AI 世界瞬息万变，在评论区留下观点,或投稿你关注的前沿链接，让更多人看到你的视角！
 ```
+
+---
+
+## Moonshot AI 推出的新一代 MoE 架构大模型：Kimi K2
+
+· Kimi K2 开源，参数达 1 万亿，激活参数为 320 亿  
+· 在代码、数学、知识问答等任务上表现优异，并优化代理型任务  
+· 提供基础和指令微调版本，适合研究、自定义微调和通用聊天应用  
+[详情链接](https://www.xiaohu.ai/c/xiaohu-ai/moonshot-ai-moe-kimi-k2)  
+#AI资讯 #产品动态
