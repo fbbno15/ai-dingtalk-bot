@@ -99,6 +99,15 @@
 
 ---
 
+## opencode
+
+一个终端AI编码助手，开源，模型自由。适合开发者，opencode是一款为终端设计的开源AI编码代理。它具有原生TUI（终端用户界面）、多会话支持，并且是模型无关的，允许您使用Claude、OpenAI、Google，甚至是本地模型。帮助开发者在终端环境中更高效地编写代码。
+
+[opencode](https://opencode.ai/?ref=hub.bestreader.ai) #Open Source #Developer Tools
+
+
+---
+
 ## Howdy
 
 一个Instagram营销工具，发送个性化、更友好的私信。适合内容创作者和营销人员，通过个性化的Instagram私信，每周节省数小时。在保护Instagram账号完整性的同时，向数千潜在客户发送有针对性的消息，提高营销效率。
@@ -108,11 +117,11 @@
 
 ---
 
-## opencode
+## Mockin
 
-一个终端AI编码助手，开源，模型自由。适合开发者，opencode是一款为终端设计的开源AI编码代理。它具有原生TUI（终端用户界面）、多会话支持，并且是模型无关的，允许您使用Claude、OpenAI、Google，甚至是本地模型。帮助开发者在终端环境中更高效地编写代码。
+一个AI面试模拟器，针对UX/UI和产品设计师，提供个性化反馈。适合正在找工作的UX/UI和产品设计师，提供真实的AI面试模拟，基于STAR方法（情境、任务、行动、结果）提供200+真实面试问题，支持7种语言，个性化反馈和简历匹配，帮助用户提升面试技能，增加获得理想工作的机会。
 
-[opencode](https://opencode.ai/?ref=hub.bestreader.ai) #Open Source #Developer Tools
+[Mockin](https://mockin.work/?ref=hub.bestreader.ai) #Hiring #Productivity
 
 
 ---
@@ -144,15 +153,6 @@
 
 ---
 
-## VisualPH
-
-一个设计灵感收集器，提供高质量产品页面展示。适合设计师和产品经理，用于浏览Product Hunt上热门产品的落地页设计和图片视频，从中获取网站设计和产品发布的灵感，提升设计效率和产品吸引力。
-
-[VisualPH](https://visualph.com/?ref=hub.bestreader.ai) #Design Tools #Product Hunt
-
-
----
-
 ## Speech in Flow
 
 一个AI语音生成工具，让图片开口说话。适合内容创作者和营销人员，使用Google的AI电影制作工具Flow，通过Veo 3技术，上传图片并添加自定义AI生成的语音，让图片生动地讲述故事，非常适合制作趣味短视频和广告内容。
@@ -171,11 +171,11 @@
 
 ---
 
-## Teammates.ai
+## VisualPH
 
-AI智能队友，自主处理业务职能，内置安全防护。适合企业和人力资源团队，Teammates.ai构建了可以处理整个业务职能的AI队友，与人类协同工作。每个队友端到端地运行一个功能：支持、销售、面试等，支持超过50种语言，包括20多种阿拉伯语方言。每个Teammate都与30多种工具和Zapier原生集成。目前已上线 Sara（面试），即将推出 Raya（支持）、Rashed（销售）等。
+一个设计灵感收集器，提供高质量产品页面展示。适合设计师和产品经理，用于浏览Product Hunt上热门产品的落地页设计和图片视频，从中获取网站设计和产品发布的灵感，提升设计效率和产品吸引力。
 
-[Teammates.ai](https://teammates.ai/sara?ref=hub.bestreader.ai) #Hiring #Artificial Intelligence
+[VisualPH](https://visualph.com/?ref=hub.bestreader.ai) #Design Tools #Product Hunt
 
 
 ---
@@ -186,54 +186,42 @@ AI智能队友，自主处理业务职能，内置安全防护。适合企业和
 ```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 7 条资讯
+今天共 5 条资讯
 
 ### 💡AI工具新动态
 
-## 重磅发布!月之暗面推出万亿参数开源大模型Kimi K2
+## Mistral重磅推出Voxtral:开源AI音频模型的新时代来临!
 
-· Kimi K2采用了混合专家架构，参数量达到1万亿，展现了强大的计算能力。  
-· Kimi K2具备自主调用工具和执行代码的能力，提升了处理复杂任务的效率。  
-· 月之暗面宣布开源基础模型和API服务，推动了多场景应用的发展。
+· Voxtral是首个能够在实际应用中提供‘真正可用的语音智能’的开源模型。  
+· 支持多种语言，包括英语、西班牙语、法语等，满足全球化需求。  
+· 提供不同参数版本，如Voxtral Small和Voxtral Mini，适合不同场景使用。  
 
-## 智源宣布全面开源 RoboBrain2.0与 RoboOS2.0，刷新10项评测基准
+## 昆仑万维Skywork发布分层多智能体协作框架AgentOrchestra
 
-· RoboBrain2.0拥有强大的时空认知能力，能高效执行复杂任务。  
-· RoboOS2.0实现跨本体协同，支持多智能体协作，推动群体智能发展。  
-· 新技术显著提升机器人在复杂环境中的理解与决策能力。  
-[详情链接](https://github.com/FlagOpen/RoboBrain2.0)
+· AgentOrchestra通过分层架构实现智能体协作，提升复杂任务处理能力。  
+· 异步协程技术提高系统响应速度和吞吐量，支持多智能体高并发协作。  
+· 在权威基准测试中表现优异，多项指标超越商业和开源系统。  
+[详情链接](https://arxiv.org/pdf/2506.12508)  
 
-## 通义千问Qwen Chat桌面客户端发布 支持一键唤起调用MCP
+## Kimi-2已上线 LiveBench AI:超越 GPT-4.1，开源 AI 新王者诞生
 
-· 新增多种强大功能，如深入研究、图像生成等。  
-· 支持桌面端应用，实现无缝衔接。  
-· 提供资源获取途径，便于深入了解技术原理。
+· Kimi-2是一款由开源团队开发的混合专家模型（MoE），拥有32B活跃参数和1T总参数，性能表现亮眼。  
+· Kimi-2的API定价低至每百万tokens0.15美元，显著降低了使用成本，同时具备开源特性。  
+· Kimi-2在代码生成能力上超越了Claude Opus4和GPT-4.1，成为非推理模型中的佼佼者，位列全球第三。  
 
-## 影视级TTS神器来了!IndexTTS2零样本克隆+情绪控制，配音界的革命性突破!
+## TRAE 推出 Kimi-K2模型服务，国际版支持 Grok-4（Beta）
 
-· 完全本地化部署，降低使用门槛和成本。  
-· 零样本语音克隆，精准还原音色与节奏。  
-· 全球首创情绪克隆与文本情绪控制，提升语音表现力.  
-[详情链接](https://index-tts.github.io/index-tts2.github.io/)
+· Kimi-K2是一款基于混合专家架构的基础模型，具备卓越的代码能力和通用代理任务处理能力。  
+· TRAE 国际版新增了超级模型 Grok-4（Beta），为开发者提供更强大的工具支持。  
+· 用户可通过简单步骤接入 Kimi-K2，满足多样化的开发需求。  
+[详情链接](https://www.trae.ai)  
 
-## HuggingFace 推出小型智能机器人，五小时销售额超百万，299美元起购
+## 字节跳动Seed最新强化学习配方POLARIS开源4B 模型数学推理接近235B 表现
 
-· HuggingFace 推出开源桌面机器人 Reachy Mini, 五小时销售额超百万。  
-· Reachy Mini 有线版和无线版分别定价299美元和499美元, 功能模块化设计使其具备教学与测试潜力。  
-· HuggingFace 通过开源哲学和社区驱动方式，为用户提供了更多可能性和创造空间。
-
-## 实时视频生成新突破:Meta StreamDiT 仅需单 GPU,逐帧生成高质量视频
-
-· StreamDiT 实现了逐帧实时视频流生成, 提升交互体验。  
-· 采用移动缓冲区技术, 优化处理速度与图像质量。  
-· 在动态视频生成方面优于现有方法, 展现强大潜力。
-
-## Liquid AI 重磅开源 LFM2:边缘 AI 新王者,速度与效率双突破!
-
-· LFM2采用创新的结构化自适应算子架构, 提升训练效率和推理速度。  
-· LFM2的推理速度比 Qwen3快2倍, 训练速度较之前模型提升3倍。  
-· LFM2支持长上下文处理, 适合隐私敏感的本地化 AI 应用.   
-[详情链接](https://huggingface.co/collections/LiquidAI/lfm2-686d721927015b2ad73eaa38)
+· POLARIS通过定制化训练数据和超参数设置，提升小模型的数学推理能力。  
+· 引入动态调整训练数据难度分布和实时剔除过易样本的策略，确保训练有效性。  
+· 多阶段RL训练方法帮助模型逐步适应复杂任务，提升训练稳定性和效果。  
+[详情链接](https://github.com/ChenxinAn-fdu/POLARIS Hugging Face)  
 
 👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
 ```
