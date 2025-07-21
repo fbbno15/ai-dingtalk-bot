@@ -1,181 +1,181 @@
 # AI 产品新发现
 
-## Clueso
+## Brain MAX by ClickUp
 
-一个AI视频生成工具，快速将屏幕录像转化为高质量产品视频。适合产品经理和市场营销人员，通过上传屏幕录像，无需编辑技能，即可在几分钟内生成工作室质量的产品视频和分步指南文章。可以用于产品演示、教程制作等场景，省时省力。
+一个AI效率桌面应用，集合多种AI模型。适合需要高效工作的专业人士，Brain MAX 是一款ClickUp的原生桌面应用，旨在通过消除AI Sprawl（AI工具分散）来最大化生产力。用户可以使用所有AI模型，包括高级推理模型，并享受Talk to Text（语音转文字）等功能，以及AI与应用的连接，以更高效地完成任务。每月仅需9美元。
 
-[Clueso](https://clueso.io/?ref=hub.bestreader.ai) #SaaS #Artificial Intelligence
-
-
----
-
-## Stepfun Diligence Check
-
-一个AI搜索工具，通过多重验证溯源，确保信息可信。适合需要进行研究和信息验证的用户，StepFun Diligence Check通过追踪引用来源，并使用多代理系统进行验证，帮助用户辨别信息的真伪，适用于需要高质量信息来源的工作和学习场景，避免错误信息的影响。
-
-[Stepfun Diligence Check](https://stepfun.ai/docs/diligence-check?studio_code=diligence_check&studio_id=126421240326995968&studio_type=3&agent_type=2&ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
+[Brain MAX by ClickUp](https://clickup.com/brain/max?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
 
 
 ---
 
-## Magic Animator (Beta)
+## OpenArt One-Click Video Story
 
-一个Figma AI动画工具，快速生成多种格式的动画。适合设计师和营销人员，利用AI在Figma中快速为广告、应用、网站和社交媒体帖子生成动画，支持一键生成，并导出为GIF、Lottie（一种轻量级的JSON动画格式）、MP4等格式，方便在各种平台使用和编辑。
+一个一键生成视频故事的工具，让创意可视化。适合市场营销人员和内容创作者，将想法、剧本、节拍或喜欢的角色，一键转化为包含动态效果、音乐和叙事结构的视频故事，用于社交媒体营销，内容创作等场景，简化视频制作流程，提升内容吸引力。
 
-[Magic Animator (Beta)](https://lottielab.com/?ref=hub.bestreader.ai) #Design Tools #Artificial Intelligence
-
-
----
-
-## Intervo
-
-一个开源对话AI平台，突破限制，功能强大。适合企业或开发者，用于创建复杂的电话呼叫、语音和聊天AI代理。不再受限于ChatBase和Retell.AI等封闭平台，能够即时协助客户进行潜在客户评估、处理技术支持等任务。利用开源的灵活性，实现更多定制化和更强大的AI交互功能。
-
-[Intervo](https://intervo.ai/?ref=hub.bestreader.ai) #Open Source #SaaS
+[OpenArt One-Click Video Story](https://openart.ai/?ref=hub.bestreader.ai) #Design Tools #Marketing
 
 
 ---
 
-## HelloCV AI
+## TestSprite 2.0
 
-一个AI简历网站生成器，免费域名，无需代码。适合求职者，无需编程和设计技能，通过AI技术将简历快速转换成一个具有 Notion 风格的个人网站，并托管在免费的 .cv 域名上。帮助用户展示个人作品，在求职中脱颖而出，获得更多面试机会。
+一个AI代码测试伙伴，确保AI生成的代码有效。适合开发者，TestSprite 2.0通过MCP分析代码规范、验证AI生成的代码、运行测试并提供修复建议，保证AI代码的正确性，尤其适用于需要高效验证AI生成代码的项目，提高开发效率和代码质量。有了它，你的coding agent会更强大。
 
-[HelloCV AI](https://www.hellocv.ai/?ref=hub.bestreader.ai) #Hiring #Artificial Intelligence
-
-
----
-
-## TensorBlock Forge
-
-一个AI模型API，快速安全连接和运行各类AI模型。适合开发者和AI研究人员，TensorBlock Forge提供了一种快速、安全的方式来连接和运行不同供应商的AI模型，无需复杂的工具或基础设施，只需3行代码即可切换。它与OpenAI兼容，并优先考虑隐私保护，为AI应用的开发和部署提供了便利。
-
-[TensorBlock Forge](https://tensorblock.co/?ref=hub.bestreader.ai) #Open Source #Artificial Intelligence
+[TestSprite 2.0](http://testsprite.com/?ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## The smarter, simpler way to analyze your data
+## Dualite Alpha
 
-一个数据分析工具，更智能便捷地分析数据。适合需要数据分析的专业人士，帮助用户更智能、更简单地分析数据，优化决策流程。适用于各种数据分析场景，例如市场分析、用户行为分析等。通过可视化数据，用户可以快速发现数据中的模式和趋势，从而做出更明智的商业决策。
+一个本地优先的AI应用构建器，数据安全有保障。适合注重数据隐私的开发者，在本地浏览器构建和发布移动及Web应用，无需担心数据泄露风险。利用其无代码特性，简化开发流程，快速实现AI应用原型。适用于开发各类数据敏感型应用。
 
-[The smarter, simpler way to analyze your data](https://www.hurree.co/product-hunt?ref=hub.bestreader.ai) #Web App #Analytics
-
-
----
-
-## Tile
-
-一个AI移动应用开发工具，无需DevOps即可快速发布App。适合开发者和创业者，通过可视化设计和AI代理，构建并发布App Store就绪的移动应用。AI代理处理身份验证、支付、CMS等功能，Tile提供完整的代码输出和内置基础设施，帮助用户快速启动真实应用，无需专业的运维知识。
-
-[Tile](https://www.tile.dev/?ref=hub.bestreader.ai) #Design Tools #Developer Tools
+[Dualite Alpha](https://dualite.dev/?utm_source=producthunt&utm_medium=social&ref=hub.bestreader.ai) #Developer Tools #Artificial Intelligence
 
 
 ---
 
-## Wibe for creators
+## Finlens
 
-一个社群平台，帮助创作者发展听众并获得收入。适合内容创作者，利用平台提供的工具轻松建立社群，通过提高用户参与度、举办活动和体验等方式增加收入，并将内容与合适的受众连接，将专业知识转化为个人创作事业。
+一个AI会计助手，加速财务流程，提升效率。适合创始人及会计师，Finlens作为AI协同工具，优化QuickBooks等工具的使用体验，加速月结流程，减少处理凭证和表格的时间，适用于需要提高财务工作效率的企业和个人。
 
-[Wibe for creators](https://wibe.so/?ref=hub.bestreader.ai) #Events #Social Media
-
-
----
-
-## 21st.dev 2.0
-
-一个UI组件平台，用AI快速生成、混合和分享UI组件。适合设计师和前端工程师，通过AI Magic Agent，输入提示词后立即获得5个独特的组件变体，并支持在聊天中进行混合和微调。帮助用户快速找到心仪的设计，并提高UI组件的开发效率。
-
-[21st.dev 2.0](https://21st.dev/?ref=hub.bestreader.ai) #Design Tools #
+[Finlens](https://www.finlens.app/?ref=hub.bestreader.ai) #SaaS #Finance
 
 
 ---
 
-## xmcp
+## Mozart AI
 
-一个应用框架，用于构建和发布模型情境协议（MCP）应用。适合开发者，xmcp 旨在简化开发流程，降低了在模型情境协议（Model Context Protocol）生态系统之上创建和部署强大工具的门槛。关注开发体验，简化了开发流程，降低了开发门槛。
+一个AI音乐创作平台，让音乐制作更简单。适合音乐爱好者和专业人士，无论是卧室音乐人还是专业DJ，都可以使用Mozart AI将任何想法变成一首完整的歌曲。通过简单的指令，例如“Hey Mozart, create a Porter Robinson style 8 bar chord progression and EQ it”，快速生成特定风格的和弦进行并进行均衡处理，极大地简化了音乐创作流程。
 
-[xmcp](https://xmcp.dev/?ref=hub.bestreader.ai) #Open Source #Developer Tools
-
-
----
-
-## opencode
-
-一个终端AI编码助手，开源，模型自由。适合开发者，opencode是一款为终端设计的开源AI编码代理。它具有原生TUI（终端用户界面）、多会话支持，并且是模型无关的，允许您使用Claude、OpenAI、Google，甚至是本地模型。帮助开发者在终端环境中更高效地编写代码。
-
-[opencode](https://opencode.ai/?ref=hub.bestreader.ai) #Open Source #Developer Tools
+[Mozart AI](https://getmozart.ai/app?ref=hub.bestreader.ai) #Music #Artificial Intelligence
 
 
 ---
 
-## Howdy
+## Untitled UI React
 
-一个Instagram营销工具，发送个性化、更友好的私信。适合内容创作者和营销人员，通过个性化的Instagram私信，每周节省数小时。在保护Instagram账号完整性的同时，向数千潜在客户发送有针对性的消息，提高营销效率。
+一个开源React组件库，通过复制粘贴快速构建现代UI。适合前端开发者，通过使用Tailwind CSS和React Aria构建的开源React组件，可以快速设计和开发现代用户界面，无需从零开始，节省大量设计和开发时间。只需复制、粘贴和构建，即可完成。
 
-[Howdy](https://sayhowdy.co/?ref=hub.bestreader.ai) #Chrome Extensions #Messaging
-
-
----
-
-## Mockin
-
-一个AI面试模拟器，针对UX/UI和产品设计师，提供个性化反馈。适合正在找工作的UX/UI和产品设计师，提供真实的AI面试模拟，基于STAR方法（情境、任务、行动、结果）提供200+真实面试问题，支持7种语言，个性化反馈和简历匹配，帮助用户提升面试技能，增加获得理想工作的机会。
-
-[Mockin](https://mockin.work/?ref=hub.bestreader.ai) #Hiring #Productivity
+[Untitled UI React](https://www.untitledui.com/?ref=hub.bestreader.ai) #Open Source #Software Engineering
 
 
 ---
 
-## Grok 4
+## Checklist Genie
 
-一个AI模型，提供深度推理、大胆创作和探索能力。适合对AI技术有较高要求的用户，Grok 4 由 xAI 开发，提供高级工具，可用于编码、分析等，通过幽默和深刻的见解探索世界。是SuperGrok/Premium+ 用户在 grok.com 和 X 上的专属工具。
+一个语音AI清单助手，用语音和照片快速生成可分享的清单。适合需要高效创建和分享清单的各类人群，无论是在购物、旅行还是工作任务管理等场景，通过语音或照片快速创建清单，简化日常、每周和每月例行事务的管理，提升效率。
 
-[Grok 4](https://x.com/i/grok?ref=hub.bestreader.ai) #Productivity #Artificial Intelligence
-
-
----
-
-## Permut
-
-一个AI客户互动平台，收集反馈，驱动增长。适合市场营销和客户关系团队，通过WhatsApp、短信、网页等渠道构建AI代理，与客户互动并收集反馈，从而提高客户留存率，预防不良体验，并大规模解锁实时洞察。助力企业在多个渠道提升客户互动效果。
-
-[Permut](https://permut.com/?ref=hub.bestreader.ai) #Messaging #Artificial Intelligence
+[Checklist Genie](https://checklistgenie.app/?ref=hub.bestreader.ai) #Productivity #Task Management
 
 
 ---
 
-## iftrue
+## Runway
 
-一个Slack工程管理助手，同步信息，辅助决策。适合工程管理人员，在Slack中连接GitHub和Jira，帮助管理者跟踪团队进度，发现问题，提供管理建议，辅助会议决策，从而更有效地领导团队，避免过度关注工具本身。
+一个AI应聘者排序工具，根据你的招聘需求定制。适合人力资源部门和招聘人员，Runway允许用户自定义排序参数，上传最多50份简历，并根据角色和公司最重要的因素对申请人进行排序，从而不再需要一刀切的筛选和基本的ATS（Applicant Tracking System，招聘管理系统）过滤器，提高招聘效率和精准度。
 
-[iftrue](https://iftrue.co/?ref=hub.bestreader.ai) #Productivity #Bots
-
-
----
-
-## Speech in Flow
-
-一个AI语音生成工具，让图片开口说话。适合内容创作者和营销人员，使用Google的AI电影制作工具Flow，通过Veo 3技术，上传图片并添加自定义AI生成的语音，让图片生动地讲述故事，非常适合制作趣味短视频和广告内容。
-
-[Speech in Flow](https://labs.google/fx/tools/whisk?ref=hub.bestreader.ai) #Artificial Intelligence #Photo & Video
+[Runway](https://app.joinrunway.io/score-candidates?ref=hub.bestreader.ai) #Hiring #Artificial Intelligence
 
 
 ---
 
-## YoinkUI
+## ChatGPT agent
 
-一个UI复制工具，一键拷贝网页UI组件。适合前端开发者和网页设计师，通过浏览器扩展程序，可以从任何网页复制UI组件，并将其转换为React + Tailwind组件，方便在自己的项目中使用。加速UI开发流程，提高开发效率。
+一个ChatGPT的升级工具，让AI具备思考和行动能力。适合需要AI辅助完成复杂任务的用户，ChatGPT agent让AI能够像人类一样思考和行动，主动从工具箱中选择合适的技能，使用自己的电脑自主完成任务，扩展了ChatGPT的应用场景。
 
-[YoinkUI](https://www.yoinkui.com/?ref=hub.bestreader.ai) #Design Tools #Developer Tools
+[ChatGPT agent](https://openai.com/chatgpt?ref=hub.bestreader.ai) #Artificial Intelligence #
 
 
 ---
 
-## VisualPH
+## Maestro Studio Desktop Beta
 
-一个设计灵感收集器，提供高质量产品页面展示。适合设计师和产品经理，用于浏览Product Hunt上热门产品的落地页设计和图片视频，从中获取网站设计和产品发布的灵感，提升设计效率和产品吸引力。
+一个桌面端测试工具，无需代码快速进行移动和Web测试。适合开发者和非技术团队成员，使用此一体化桌面应用程序，可以自动化移动和Web应用程序的测试，无需命令行或IDE设置。基于开源Maestro框架，几分钟内即可创建、运行和扩展测试。免费使用，简化测试流程。
 
-[VisualPH](https://visualph.com/?ref=hub.bestreader.ai) #Design Tools #Product Hunt
+[Maestro Studio Desktop Beta](https://maestro.dev/?ref=hub.bestreader.ai) #Open Source #Developer Tools
+
+
+---
+
+## Jokr.bar
+
+一个趣味营销工具，用笑话挽留访客。适合电商和市场营销人员，当访客试图离开网站时，Jokr.bar会触发一个有趣的提示条，通过幽默的方式阻止访客流失，为网站提供最后一次转化机会，提高转化率。
+
+[Jokr.bar](https://jokr.bar/?ref=hub.bestreader.ai) #Marketing #Growth Hacking
+
+
+---
+
+## PPT.AI
+
+一个AI演示文稿工具，用智能自动化节省95%的时间。适合需要制作演示文稿的专业人士，通过智能自动化和优质模板，PPT AI可以将想法快速转化为精美的演示文稿，节省大量时间和精力，适用于商务汇报、课程讲解等多种场景。
+
+[PPT.AI](https://ppt.ai/?utm_source=producthunt&ref=hub.bestreader.ai) #Design Tools #SaaS
+
+
+---
+
+## Barrier
+
+一个屏幕使用时间管理工具，帮你戒掉手机瘾。适合想要减少刷手机时间的用户，Barrier 通过限制每次使用App的时间为10分钟，之后锁定App，强制等待30秒才能解锁，从而减少70%的屏幕使用时间。尤其适合有iOS设备，想要戒掉社交媒体瘾，提高工作和生活效率的人群。
+
+[Barrier](https://apps.apple.com/us/app/barrier-social-lock/id6448244443?ref=hub.bestreader.ai) #iOS #Productivity
+
+
+---
+
+## Snack it
+
+一个AI灵感收集工具，快速整理素材并生成AI提示。适合设计师、内容创作者，在浏览网页时，Snack it 可以一键保存图片素材，告别屏幕截图的混乱，并根据素材自动生成AI提示词，快速发送到ChatGPT、Midjourney、Gemini等AI工具，激发创作灵感。免费安装，方便快捷。
+
+[Snack it](https://www.snackprompt.com/?ref=hub.bestreader.ai) #Chrome Extensions #Design Tools
+
+
+---
+
+## Blink
+
+一个AI应用构建器，无需代码，秒速生成应用。适合创业者和开发者，在需要快速验证想法或构建MVP（最小可行产品）时，利用Blink的AI能力，无需编写代码即可快速生成包含身份验证、数据库、边缘函数、AI集成和托管等功能的完整应用，极大地缩短开发周期，并且能够自动纠错和修复bug。
+
+[Blink](https://blink.new/?ref=hub.bestreader.ai) #SaaS #Developer Tools
+
+
+---
+
+## Bestever
+
+一个广告优化工具，分析数据，自动生成创意。适合营销人员和广告创意人员，通过分析Facebook广告数据，挖掘表现最佳的创意概念，并监测竞争对手的广告策略，在几分钟内为Meta、LinkedIn和TikTok等平台快速生成新的广告草案。现在为新用户推出包含少量额度的免费计划。
+
+[Bestever](https://bestever.ai/?ref=hub.bestreader.ai) #Design Tools #Marketing
+
+
+---
+
+## AI Voice Agent SDK
+
+一个开源框架，为实时AI语音提供技术支持。适合开发者，AI Voice Agent SDK提供了一种简便方式，将实时语音代理和虚拟形象集成到任何应用中，包括电话、网页、移动设备、机器人和可穿戴设备等，为实时语音交互应用开发提供支持。
+
+[AI Voice Agent SDK](https://videosdk.live/?ref=hub.bestreader.ai) #Open Source #Developer Tools
+
+
+---
+
+## Velocity
+
+一个Figma原型AI测试工具，用数据驱动设计决策。适合设计师和用户体验团队，在Figma中通过AI快速生成设计原型，并通过真人用户测试发现早期问题。Velocity能生成包含丰富数据的报告，帮助团队更好地进行设计决策，并通过无限的用户测试来验证设计方案，从而提升设计标准，减少不必要的时间浪费。
+
+[Velocity](https://www.appvelocity.io/?ref=hub.bestreader.ai) #Design Tools #User Experience
+
+
+---
+
+## MyLens Stock Market
+
+一个AI股票市场分析工具，提供直观易懂的可视化分析看板。适合股票投资者，通过AI扫描可信来源并分析数据，针对任何股票、公司、行业或市场进行分析，提供价格趋势、市场情绪、SWOT分析等关键信号的可视化看板，帮助用户快速了解市场动态，做出明智的投资决策。
+
+[MyLens Stock Market](https://mylens.ai/mylens-for-market-analysis?ref=hub.bestreader.ai) #Investing #Artificial Intelligence
 
 
 ---
@@ -183,80 +183,63 @@
 
 # AI 行业新动态
 
-```markdown
 # YYYY-MM-DD AI资讯日报
 
-今天共 10 条资讯
+今天共 8 条资讯
 
 ### 💡AI工具新动态
 
-## 月之暗面Kimi开放平台上线Kimi Playground
+## Stability AI发布0.7秒单图像实时重建模型 SPAR3D，颠覆3D重建
 
-· Kimi Playground通过工具调用功能让AI主动解决问题，实现从被动信息提供者到智能助手的转变。  
-· 提供直观的工具调用界面，支持内置和第三方工具接入，提升开发效率。  
-· 在数据分析和旅游行程规划等场景中展现出强大的自动化能力，简化复杂任务。  
-[详情链接](https://platform.moonshot.cn/playground)  
+· SPAR3D 结合了基于回归和生成式建模的优势，有效提升重建速度与精度。  
+· 采用点扩散模型和三平面 Transformer 架构，实现高效的点云生成与纹理渲染。  
+· 在 GSO 和 OmniObject3D 数据集上表现优异，证明其在几何形状和纹理质量上的卓越性能。  
+[详情链接](https://github.com/Stability-AI/stable-point-aware-3d)  
 
-## OpenAI重磅发布ChatGPT Agent:会主动思考，浏览、购物、做PPT!
+## GitHub获34000颗星！开源 AI 协作智能体 CrewAI 引领开发者潮流
 
-· ChatGPT Agent具备自主浏览、点击、填写表单及执行代码的能力，可处理多样任务如婚礼服装挑选或旅行行程制定。  
-· 在多项基准测试中表现优异，准确率远超竞争对手，展现出强大的实用性。  
-· 强调安全性，涉及高后果操作时需用户授权，并实施严格防护措施以防止恶意攻击。  
-[详情链接](https://openai.com/zh-Hans-CN/index/introducing-chatgpt-agent/)  
+· CrewAI 框架的核心由 Crews 和 Flows 两部分组成，专注自主协作和任务管理。  
+· 超过10万名开发者已通过 CrewAI 认证，推动技术支持与资源共享。  
+· CrewAI 框架在 GitHub 上获得超过34,000颗星，吸引大量开发者关注。  
+[详情链接](https://github.com/crewAIInc/crewAI?tab=readme-ov-file)  
 
-## Suno发布v4.5+ 推出人声替换功能，可将原唱人声换为其他人声音
+## 告别繁琐搭建！ComfyUI-C opilot让AI工作流一键生成，解锁60,000+模型的创意潜能
 
-· 人声替换功能允许用户上传伴奏或使用内置乐器伴奏，并输入歌词生成完整歌曲。  
-· Add Instrumentals功能可以将用户的歌声或哼唱转化为完整的音乐作品。  
-· Inspire功能从播放列表中汲取灵感，快速生成符合用户审美的新歌曲。
+· 智能助手降低使用门槛：用户可通过自然语言描述快速生成工作流，适合初学者。  
+· 自动化与个性化提升效率：支持自动优化参数和灵活选择模型，提高创作效率。  
+· 开源社区驱动持续优化：项目在GitHub上获得广泛认可，团队持续更新并新增多语言支持等特性。  
+[详情链接](https://github.com/AIDC-AI/ComfyUI-Copilot)  
 
-## AI 视频成本新高?Google Veo3通过 Gemini API 现已上线
+## AI提示词管理工具AI Gist 上线，支持AI优化提示词并进行分类
 
-· 谷歌推出旗舰视频生成模型 Veo3，支持文本转视频与同步音频生成。  
-· Veo3的价格较高，720p 视频每秒0.75美元，可能带来高昂成本。  
-· Veo3主要应用于专业领域，如 Cartwheel 和游戏工作室 Volley 的项目中。
+· 集成多种AI模型，提供自动生成和调优功能。  
+· 数据默认存储在本地，保障用户隐私与数据安全。  
+· 支持多平台使用，包括Windows、macOS和Linux。  
+[详情链接](https://github.com/yarin-zhang/AI-Gist)  
 
-## 首个直播流扩散AI模型MirageLSD震撼发布，实时视频转换开启无限可能!
+## 开源版多邻国！WordPecker：AI语音对话+个性化词汇，3倍速学语言！
 
-· MirageLSD实现了24帧/秒的运行速度和小于40毫秒的响应延迟，打破了传统视频生成模型的瓶颈。  
-· 支持手势控制和连续提示编辑，用户可实时改变视频中的外观、场景或服装，降低技术门槛。  
-· 在游戏开发领域展现出惊人潜力，开发者可在30分钟内快速构建一款游戏，并由模型自动处理所有图形效果。  
-[详情链接](https://mirage.decart.ai/)  
+· 个性化学习：用户可根据兴趣选择主题和难度，系统生成匹配内容。  
+· 语音交互：集成OpenAI语音Agent，提供实时语音对话与发音反馈。  
+· 开源优势：项目托管于GitHub，允许开发者自由修改和优化，推动技术创新。  
+[详情链接](https://github.com/baturyilmaz/wordpecker-app)  
 
-## VSCode的AI编程利器 Traycer，处理大型代码库表现出色
+## 斯坦福推出多工具协作 AI Agent，助力复杂推理任务
 
-· 任务拆解与规划:根据高级任务描述生成详细的编码计划。  
-· 多代理协作:支持多个AI代理异步执行任务，提升复杂项目的处理效率。  
-· 实时代码分析:持续跟踪代码库，识别潜在错误并提出优化建议。  
-[详情链接](https://traycer.ai)  
+· OctoTools 结合11种工具，提升复杂推理任务的处理能力。  
+· 测试数据显示，OctoTools 在多个领域的准确率非常高。  
+· 规划器和执行器的分离设计，使系统更可靠且易于维护。  
+[详情链接](https://github.com/octotools/octotools)  
 
-## ART框架发布!用Python一键训练AI Agent, 邮件搜索到游戏操控全能搞定!
+## 火山引擎“奇美拉”数字人平台启动封测
 
-· ART框架通过集成GRPO技术, 提升AI Agent性能, 使其能从经验中学习并优化任务执行.   
-· 框架支持多种语言模型, 如Qwen2.5、Qwen3、Llama和Kimi, 提供广泛选择.   
-· 开发者可轻松集成ART, 通过简单命令实现强化学习功能, 降低使用门槛.   
-[详情链接](https://github.com/openpipe/art)  
+（无符合保留条件的信息）
 
-## 5.63%错误率创历史新低:NVIDIA AI推出商用级超高速语音识别模型Canary-Qwen-2.5B
+## 京东重磅开源JoyAgent-JDGenie！GAIA准确率75.15%领跑多智能体系统
 
-· 技术突破:统一语音理解与语言处理，实现单一模型架构。
- · 性能卓越:5.63% WER, 实时处理速度达418倍, 参数仅25亿.
- · 应用广泛:适用于企业转录、知识提取、会议总结及合规文档处理等场景.
- [详情链接](https://huggingface.co/nvidia/canary-qwen-2.5b)
+· JoyAgent-JDGenie在GAIA基准测试中取得75.15%的准确率，表现优异。   
+· 框架支持多模态输入输出，并具备跨任务记忆优化机制。
+ · 完全开源且模块化设计，便于开发者进行二次开发与部署。
+ [详情链接](https://github.com/jd-opensource/joyagent-jdgenie)
 
- ## 百度小度上线首个支持与物理世界交互的MCP Server
- 
- · 小度上线首个支持与物理世界交互的MCP Server，实现终端设备与核心IoT能力的MCP化升级。
- · 小度开放平台推出两大核心服务, 降低开发者门槛, 提升智能设备操控效率。
- · 小度MCP Server推动智能家居从“单点控制”向“主动服务”进化, 开启“全民智能开发”新纪元。
- [详情链接](https://dueros.baidu.com/dbp/mcp/console)
-
- ## LTX-Video13B发布!30倍速生成高清视频, 开源AI让创作无界限!
- 
- · 多尺度渲染技术提升生成速度与画质, 支持消费级GPU运行.
- · 支持多种视频生成模式, 提供精准控制与创意灵活性.
- · 开源模型赋能开发者, 降低使用门槛并推动AI民主化.
- [详情链接](https://ltx.studio)
-
-👉🏻AI 世界瞬息万变，在评论区留下观点，或投稿你关注的前沿链接，让更多人看到你的视角！
-```
+👉🏻AI 世界瞬息万变，在评论区留下观点或投稿你关注的前沿链接，让更多人看到你的视角！
